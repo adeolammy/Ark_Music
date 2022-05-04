@@ -1,0 +1,5646 @@
+*{
+	margin: 0px;
+	list-style: none;
+	text-decoration: none;
+	clear: all;
+
+}
+body{
+	background-color: 	dimgrey;/*#FFFFE0;*/
+
+}
+
+
+.wrapper{
+	border:1px solid #191970;
+	width: 100%;
+	height: 65px;	
+	background-color: #191970;
+	position: relative;
+}
+.sub-wrap{
+	margin-top: -10px;
+}
+
+.logo span{
+	
+	font-size: 40px;
+	color: #ffe505;
+	font-weight: bold;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+.logo h2{
+	font-size: 40px;
+	color: black;
+	font-weight: bold;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+.logo a{
+	color: #fffdd5;
+		opacity: 	0.9;
+
+}
+
+
+
+/*.........................................*/
+.sub-home-con ul{
+	display: flex;
+	margin-left: 310px;
+	margin-top: -32px;
+	position: relative;
+	color: white;
+}
+.sub-home-con a{
+ color: white;
+
+}
+
+
+.sub-home-con li:hover,active,focus{
+ border:0px solid #00008B;
+ background-color: #43408B;
+ text-align: center;
+}
+
+.sub-home-con a:hover{
+	transition: 0.5s
+}
+
+.sub-home-con li{
+	margin: 0px 30px 0px 10px;
+
+}
+
+
+/*.......................................*/
+.sign{
+	position: absolute;
+}
+.sign h3{
+	font-size: 17px;
+	margin-top: -23px;
+	margin-left: 860px;
+	font-weight: normal;
+	position: absolute;	
+	width: 55px;
+}
+
+
+.sign h3 > a{
+	color: white;
+	cursor: pointer;
+
+}
+
+.sign h3:hover{
+	background-color: #00008B;
+	border:0px solid;
+	position: absolute;
+	text-align: center;
+}
+
+.sign button{
+	font-size: 17px;
+	color: black;
+	font-weight: bold;
+	margin-left: 1000px;
+	margin-top: -38px;
+	background-color: orange;
+	position: absolute;
+	height: 30px;
+	cursor: pointer;	
+	border-radius: 5px;
+	height: 45px;
+	width: 	100px;
+	border:2px solid orange;
+}
+
+.sign button:hover{
+	background-color: 	darkorange;
+	border:2px solid	darkorange;
+}
+
+.sign ol{
+	position: absolute;
+	font-size: 18;
+	color: #fa2294;
+	font-weight: bold;
+	margin-left: 1170px;
+	margin-top: -28px;
+
+}
+
+.sign li >a{
+	color: white;
+	font-weight: normal;
+}
+.sign img{
+	border-radius: 50px;
+	border:1px solid #ff4;
+	margin-left: 1180px;
+	margin-top: -25px;
+	position: absolute;
+	overflow: hidden;
+}
+
+.sign li{
+	color: white;
+}
+
+.language ul > li{
+	display: none;
+
+}
+
+
+
+
+
+
+
+
+.language:hover ul > li{
+	display: flex;
+	margin-left: -30px;
+	margin-top: 8px;
+	flex-basis: 260px;
+	font-weight: normal;
+	color: #fff;
+	position: relative;
+	cursor: pointer;
+	line-height: 40px;
+	text-align: center;
+
+}
+
+
+.language:hover ul {
+	margin-top: 19px;
+	margin-left: -20px;
+	background-color: darkblue;
+	width: 72px;
+	border:2px solid grey;
+	border-top-color: #191970;
+	border-radius: 0px 0px 13px 13px;
+	overflow: hidden;
+	text-overflow: hidden;
+	align-items:flex-end;
+	text-align: right;
+
+}
+
+.language ul> li:hover,focus, active {
+	background-color: red;
+	margin-left: -39px;
+}
+
+
+
+
+/*---------SIDE BAR/UPPER SECTION-------*/
+
+
+
+.main-logo{
+	margin: 0px 0px 0px 0px;
+	border:1px solid;
+	background-color:black;
+	height: 200px;
+	width: 250px;
+
+}
+
+.main-logo img{
+	margin: -80px 0px 0px 15px;
+}
+figure > img:hover{
+	opacity: 0.9;
+	color: black;
+	cursor: pointer;
+}
+
+
+.upper-part{
+	margin-left: 252px;
+	margin-top: -201px;
+	border:0px solid;
+	background-color:white;
+	height: 370px;
+	width: 850px;
+	position: absolute;
+}
+
+.upper-wrapper a > h3{
+	margin: 20px 0px 0px 20px;
+	color: brown;
+}
+
+.upper-wrapper h2{
+	margin: 20px 0px 0px 20px;
+	color: red;
+}
+
+.upper-wrapper p{
+	margin: 9px 0px 0px 20px;
+	text-align: justify;
+	width: 800px;
+	line-height: 30px;
+	font-size: 19px;
+}
+
+.upper-wrapper span{
+	font-weight: bold;
+}
+/*-------INFORMATION SECTION LEFT------------*/
+/*-------INFORMATION SECTION LEFT------------
+-------INFORMATION SECTION LEFT------------
+-------INFORMATION SECTION LEFT------------*/
+
+.right-sidebar{
+	position: all;
+	margin-left: 1103px;
+	margin-top: -202px;
+}
+
+
+.right-sidebar figure > img{
+  border:none;
+}
+
+.right-sidebar p{
+	text-align: justify;
+	width: 225px;
+	margin-left: 5px;
+	line-height: 28px;
+}
+/*-------------LEFT-SIDEBAR------------------*/
+
+
+.wrapper-left-sidebar{
+	position: absolute;
+	margin-top: -409px;
+	line-height: 22px;
+	background-color: #FFFF;
+	width: 251px;
+	box-sizing: border-box;
+	height: 720px;
+}
+.wrapper-left-sidebar h2{
+	margin-left:30px;
+	margin-top: 20px;
+}
+.wrapper-left-sidebar h4{
+	margin-left:30px;
+	font-size: 15px;
+	box-sizing: border-box;
+
+}
+
+.wrapper-left-sidebar a > h2{
+	font-size: 16px;
+}
+.wrapper-left-sidebar a > h2:hover{
+	color: darkgreen;
+	border-bottom: 2px solid darkorange;
+	width: 210px;
+	position: all;
+	box-sizing: border-box;
+}
+
+.container-main img{
+	margin-top: -240px;
+	margin-left: 250px;
+}
+
+
+.sub-container-main button{
+	background-color: darkorange;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 6px;
+	font-weight: bolder;
+	margin-top: -280px;
+	margin-left: 250px;
+	position: absolute;
+	cursor: pointer;
+	opacity: 0.5;
+}
+.sub-container-main button:hover{
+	opacity: 0.4;
+	color: black;
+}
+
+
+.sub-container-main-next > button{
+	background-color: darkorange;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 6px;
+	font-weight: bolder;
+	margin-top: -280px;
+	margin-left: 1040px;
+	position: absolute;
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+.sub-container-main-next button:hover{
+	opacity: 0.4;
+	color: black;
+}
+
+/*-----------FORM SECTION--------------*/
+
+.form-wrapper{
+	margin-left: 930px;
+	background-color: #262626;
+	position: absolute;
+	width: 418px;
+	height: 890px;
+	box-sizing: border-box;
+	margin-top: -4px;
+
+}
+.form-wrapper form{
+		margin-left: 60px;
+		margin-top: 30px;
+
+}
+.form-wrapper input{
+	font-size: 20px;
+	height: 40px;
+	margin: 7px;
+	width: 295px;
+}
+
+
+.form-wrapper select{
+	width: 295px;
+	font-size: 20px;
+	height: 40px;
+	margin: 7px;
+}
+.form-wrapper textarea{
+	width: 292px;
+	font-size: 22px;
+	height: 40px;
+	margin-left: 5px;
+	margin-top: -16px;
+}
+.form-wrapper h3{
+	font-size: 18px;
+	margin:-10px 0px 20px 0px;
+	color: brown;
+	width: 360px;
+
+}
+
+
+/*-----------------------*/
+
+
+.teacher{
+	position: absolute;
+	margin-left: 40px; 
+	margin-top: 30px;
+	background-color: white;
+	width: 830px;	
+	height: 550px;
+}
+
+.teacher h2{
+	margin-left: 280px; 
+	margin-bottom: 20px;
+}
+.teacher img{
+	position: absolute;
+	margin-left: 40px;
+	margin-top: -2px;
+	
+}
+
+
+
+
+
+.down-img{
+ margin-left: -45px;
+ margin-top: 780px;
+ position: absolute;
+
+}
+
+.down-img img{
+ 	margin-left: 138px;
+	background-color: orange;
+	width: 80px;
+	height: 80px;
+}
+
+
+.content h3{
+	display: inline-block;
+	margin-left: 90px;
+	font-size: 15px;
+	color: purple;
+}
+
+.STARTED{
+	margin-left: 220px;
+	margin-top: -20px;
+}
+
+.CASE{
+	margin-left:483px;
+	margin-top: -20px;
+	position: absolute;
+}
+
+
+.faq{
+		margin-left: 740px;
+		margin-top: -20px;
+
+}
+
+/*-------------FOOTER-------------------*/
+
+
+.footer{
+	background-color: white;
+	position: absolute;
+	margin-top: 1000px;
+	width:1351px;
+	height:820px;
+}
+
+.wrapper-footer{
+	background-color: #262626;
+	position: absolute;
+	margin-left: 100px;
+	width:1150px;
+	height:590px;
+}
+
+.uls{
+	margin-left:80px;
+	margin-top:130px;
+	color: white;
+	font-size: 17px;
+}
+.uls ul{
+	margin-top: 30px;
+}
+
+.uls li > a{
+	color: white;
+	font-size: 16px;
+	margin-left:-50px;
+	line-height: 35px;
+}
+
+.uls li > a:hover{
+	border-bottom: 2px solid purple;
+	color: orange;
+}
+
+
+.footer-logo{
+	margin-top:-50px;
+	position: absolute;
+}
+
+.foot-logo-wrap{
+	margin-left:370px;
+	margin-top:-510px;
+}
+.foot-logo-wrap h1{
+	font-size: 75px;
+	color: white;
+	font-weight: bolder;
+	margin-left: 70px;
+	margin-top: -16px;
+}
+
+.foot-logo-wrap h3{
+	color: white;
+	font-weight: bolder;
+	margin-left: 70px;
+	margin-top: -16px;
+}
+
+.foot-social-wrap{
+		margin-left: 385px;
+		display: flex;
+
+}
+
+
+.foot-social-wrap img{
+		margin: 4px;
+		margin-top: 21px;
+	
+}
+
+.ff{
+	margin-top: 10px;
+}
+
+
+.f{
+	margin-top: 0px;
+	margin-left: -13px;
+}
+
+.twee{
+	margin-top: 7px;
+	margin-left: -3px;
+}
+.intg{
+	margin-top: 9px;
+	margin-left: 5px;
+}
+
+.you1{
+	margin-top: 6px;
+	margin-left: 13px;
+}	
+.foot-social-wrap img:hover{
+	opacity: 0.8;
+	background-color: darkolivegreen;
+	cursor: pointer;
+}
+
+.foot-cont{
+	margin-top: 21px;
+	margin-left: 430px;
+	color: gainsboro;
+	font-size: 14px;
+	line-height: 30px;
+	opacity: 0.5;
+}
+
+.footer-contact-us{
+	margin-top: -401px;
+	margin-left: 880px;
+
+}
+
+.footer-contact-us h4{
+	color: white;
+	font-size: 16px;
+}
+
+
+.footer-contact-us  h5{
+	margin-top: 50px;
+	color: white;
+	font-size: 13px;
+}
+
+.footer-contact-us p{
+	opacity: 0.6;
+	color: white;
+	font-size: 16px;
+}
+
+.footer-contact-us a{
+	opacity: 0.6;
+	color: white;
+	font-size: 16px;
+}
+
+
+
+
+
+
+/*******ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE**********/
+/*******ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE**********/
+/*******ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE**********/
+/*******ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE**********/
+/*******ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE**********/
+/*******ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE**********/
+/*******ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE**********/
+/*******ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE**********/
+/*******ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE**********/
+/*******ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE ABOUT US PAGE**********/
+
+
+
+
+*{
+	margin: 0px;
+	list-style: none;
+	text-decoration: none;
+	clear: all;
+
+}
+body{
+	background-color: 	dimgrey;/*#FFFFE0;*/
+
+}
+
+/*---------NAVIGATION SECTION------------*/
+/*---------NAVIGATION SECTION------------*/
+/*---------NAVIGATION SECTION------------*/
+
+.wrapper-ab{
+	border:1px solid #191970;
+	width: 100%;
+	height: 65px;	
+	background-color: #191970;
+	position: relative;
+}
+.sub-wrap-ab{
+	margin-top: -10px;
+}
+
+.logo-ab span{
+	
+	font-size: 40px;
+	color: #ffe505;
+	font-weight: bold;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+.logo-ab h2{
+	font-size: 40px;
+	color: black;
+	font-weight: bold;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+.logo-ab a{
+	color: #fffdd5;
+		opacity: 	0.9;
+
+}
+
+
+
+/*....HOME----PRODUCT---LEARN---RESOURCES.......*/
+
+
+.sub-home-con-ab ul{
+	display: flex;
+	margin-left: 310px;
+	margin-top: -32px;
+	position: relative;
+	color: white;
+}
+.sub-home-con-ab a{
+ color: white;
+
+}
+
+
+.sub-home-con-ab li:hover,active,focus{
+ border:0px solid #00008B;
+ background-color: #43408B;
+ text-align: center;
+}
+
+.sub-home-con-ab a:hover{
+	transition: 0.5s
+}
+
+.sub-home-con-ab li{
+	margin: 0px 30px 0px 10px;
+
+}
+
+
+/*.....................SIGN......................*/
+
+.sign-ab{
+	position: absolute;
+}
+.sign-ab h3{
+	font-size: 17px;
+	margin-top: -23px;
+	margin-left: 860px;
+	font-weight: normal;
+	position: absolute;	
+	width: 55px;
+}
+
+
+.sign-ab h3 > a{
+	color: white;
+	cursor: pointer;
+
+}
+
+.sign-ab h3:hover{
+	background-color: #00008B;
+	border:0px solid;
+	position: absolute;
+	text-align: center;
+}
+
+.sign-ab button{
+	font-size: 17px;
+	color: black;
+	font-weight: bold;
+	margin-left: 1000px;
+	margin-top: -38px;
+	background-color: orange;
+	position: absolute;
+	height: 30px;
+	cursor: pointer;	
+	border-radius: 5px;
+	height: 45px;
+	width: 	100px;
+	border:2px solid orange;
+}
+
+.sign-ab button:hover{
+	background-color: 	darkorange;
+	border:2px solid	darkorange;
+}
+
+.sign-ab ol{
+	position: absolute;
+	font-size: 18;
+	color: #fa2294;
+	font-weight: bold;
+	margin-left: 1170px;
+	margin-top: -28px;
+
+}
+
+.sign-ab li >a{
+	color: white;
+	font-weight: normal;
+}
+.sign-ab img{
+	border-radius: 50px;
+	border:1px solid #ff4;
+	margin-left: 1180px;
+	margin-top: -25px;
+	position: absolute;
+	overflow: hidden;
+}
+
+.sign-ab li{
+	color: white;
+}
+
+.language-ab ul > li{
+	display: none;
+
+}
+
+/*----------------DROP DOWN MENU-----------------*/
+
+.language-ab:hover ul > li{
+	display: flex;
+	margin-left: -30px;
+	margin-top: 8px;
+	flex-basis: 260px;
+	font-weight: normal;
+	color: #fff;
+	position: relative;
+	cursor: pointer;
+	line-height: 40px;
+	text-align: center;
+
+}
+
+
+.language-ab:hover ul {
+	margin-top: 19px;
+	margin-left: -20px;
+	background-color: darkblue;
+	width: 72px;
+	border:2px solid grey;
+	border-top-color: #191970;
+	border-radius: 0px 0px 13px 13px;
+	overflow: hidden;
+	text-overflow: hidden;
+	align-items:flex-end;
+	text-align: right;
+
+}
+
+.language-ab ul> li:hover,focus, active {
+	background-color: red;
+	margin-left: -39px;
+}
+
+
+
+
+/*---LOGO ON D LEFT MIDDLE CONTECT AND RIGHT IMAGE-----*/
+/*---LOGO ON D LEFT MIDDLE CONTECT AND RIGHT IMAGE----*/
+/*---LOGO ON D LEFT MIDDLE CONTECT AND RIGHT IMAGE-----*/
+
+
+
+
+/*--------------LOGO----------------------------*/
+
+.main-logo-ab{
+	margin: 0px 0px 0px 0px;
+	border:1px solid;
+	background-color:black;
+	height: 200px;
+	width: 250px;
+
+}
+
+.main-logo-ab img{
+	margin: -80px 0px 0px 15px;
+}
+figure > img:hover{
+	opacity: 0.9;
+	color: black;
+	cursor: pointer;
+}
+
+/*--------------UPPER PART----------------------------*/
+.upper-part-ab{
+	margin-left: 252px;
+	margin-top: -222px;
+	border:0px solid;
+	background-attachment:fixed;
+	background-image: url("../Ark Music/images/bck0.jpg");
+	background-repeat: no-repeat;
+	height: 580px;
+	width: 1099px;
+
+}
+
+.upper-wrapper-ab a > h1{
+	margin: 460px 0px 0px 100px;
+	color: white;
+	font-size: 40px;
+	position: absolute;
+}
+
+.upper-wrapper-ab h3{
+	margin: 590px 0px 0px 20px;
+	color: white;
+	font-size: 19px;
+	text-align: justify;
+	width: 800px;
+	line-height: 30px;
+	font-weight: normal;
+	position: absolute;
+}
+
+.upper-wrapper-ab p{
+	margin: 790px 0px 0px 20px;
+	text-align: justify;
+	width: 800px;
+	line-height: 30px;
+	font-size: 19px;
+	color: white;
+	position: absolute;
+}
+
+/*............OUR VISION......*/
+.container-Our-Vision{
+	margin-top: 60px;
+}
+
+.Our-Vision-ab img{
+	margin: 1030px 0px 0px 20px;
+	opacity: 0.8;
+	color: darkorange;
+	border:2px solid black;
+	border-radius: 23px;
+	border:ridge;
+	position: absolute;
+}
+
+.container-Our-Vision a > h1{
+	margin: 954px 0px 0px 100px;
+	color: white;
+	font-size: 40px;
+	position: absolute;
+}
+
+.container-Our-Vision h3{
+	margin: 1380px 0px 0px 20px;
+	color: white;
+	font-size: 19px;
+	text-align: justify;
+	width: 800px;
+	line-height: 30px;
+	font-weight: normal;
+	position: absolute;
+}
+
+.container-Our-Vision p{
+	margin: 840px 0px 0px 20px;
+	text-align: justify;
+	width: 800px;
+	line-height: 30px;
+	font-size: 19px;
+	color: white;
+	position: absolute;
+}
+
+/*.............OUR-MISSION......*/
+.container-Our-Mision{
+
+}
+
+.Our-Mision-ab img{
+	margin: 1730px 0px 0px 20px;
+	opacity: 0.8;
+	color: darkorange;
+	border:2px solid black;
+	border-radius: 23px;
+	border:ridge;
+	position: absolute;
+}
+
+.container-Our-Mision a > h1{
+	margin: 1644px 0px 0px 100px;
+	color: white;
+	font-size: 40px;
+	position: absolute;
+}
+
+.container-Our-Mision h3{
+	margin: 1380px 0px 0px 20px;
+	color: white;
+	font-size: 19px;
+	text-align: justify;
+	width: 800px;
+	line-height: 30px;
+	font-weight: normal;
+	position: absolute;
+}
+
+.container-Our-Mision p{
+	margin: 2100px 0px 0px 20px;
+	text-align: justify;
+	width: 800px;
+	line-height: 30px;
+	font-size: 19px;
+	color: white;
+	position: absolute;
+}
+
+
+/*...........LEADERSHIP..........*/
+
+.container-Leadership{
+
+}
+
+.Leadership img{
+	margin: 2310px 0px 0px 20px;
+	opacity: 0.8;
+	color: darkorange;
+	border:2px solid black;
+	border-radius: 23px;
+	border:ridge;
+	position: absolute;
+}
+
+.container-Leadership a > h1{
+	margin: 2234px 0px 0px 100px;
+	color: white;
+	font-size: 40px;
+	position: absolute;
+}
+
+.container-Leadership h3{
+	margin: 1880px 0px 0px 20px;
+	color: white;
+	font-size: 19px;
+	text-align: justify;
+	width: 800px;
+	line-height: 30px;
+	font-weight: normal;
+	position: absolute;
+}
+
+.container-Leadership p{
+	margin: 2670px 0px 0px 20px;
+	text-align: justify;
+	width: 800px;
+	line-height: 30px;
+	font-size: 19px;
+	color: white;
+	position: absolute;
+}
+/*........OTHER1.............*/
+
+.other1-ab{
+
+}
+
+.other1-ab span{
+	color: red;
+	font-size: 26px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.other1-ab img{
+	margin: 2920px 0px 0px 20px;
+	opacity: 0.8;
+	color: darkorange;
+	border:2px solid black;
+	border-radius: 703px;
+	border:ridge;
+	position: absolute;
+}
+
+
+.other1-ab p{
+	margin: 2936px 0px 0px 290px;
+	text-align: justify;
+	width: 500px;
+	line-height: 30px;
+	font-size: 19px;
+	color: white;
+	position: absolute;
+}
+
+
+/*------ANOTHER-AB------*/
+.another-ab{
+/*float: left;*/
+}
+
+.another-ab img{
+	margin: 3300px 0px 0px 20px;
+	opacity: 0.8;
+	color: darkorange;
+	border:2px solid black;
+	border-radius: 703px;
+	border:ridge;
+	position: absolute;
+}
+
+.another-ab span{
+	color: red;
+	font-size: 26px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.another-ab p{
+	margin: 3325px 0px 0px 290px;
+	text-align: justify;
+	width: 500px;
+	line-height: 30px;
+	font-size: 19px;
+	color: white;
+	position: absolute;
+}
+
+
+/*---------INFORMATION SECTION LEFT---------*/
+/*---------INFORMATION SECTION LEFT---------*/
+/*---------INFORMATION SECTION LEFT---------*/
+
+
+.wrapper-left-sidebar-ab{
+	position: absolute;
+	margin-top: -409px;
+	line-height: 22px;
+	background-color: #FFFF;
+	width: 251px;
+	box-sizing: border-box;
+	height: 720px;
+}
+.wrapper-left-sidebar-ab h2{
+	margin-left:30px;
+	margin-top: 20px;
+}
+.wrapper-left-sidebar-ab h4{
+	margin-left:30px;
+	font-size: 15px;
+	box-sizing: border-box;
+
+}
+
+.wrapper-left-sidebar-ab a > h2{
+	font-size: 14px;
+}
+.wrapper-left-sidebar-ab a > h2:hover{
+	color: darkgreen;
+	border-bottom: 2px solid darkorange;
+	width: 210px;
+	position: all;
+	box-sizing: border-box;
+}
+
+
+
+/*-------------FOOTER-------------------*/
+/*-------------FOOTER-------------------*/
+/*-------------FOOTER-------------------*/
+/*-------------FOOTER-------------------*/
+
+.container-all{
+	margin-top: 2240px;
+}
+.footer-ab{
+	background-color: white;
+	position: absolute;
+	margin-top: 1000px;
+	width:1351px;
+	height:820px;
+}
+
+.wrapper-footer-ab{
+	background-color: #262626;
+	position: absolute;
+	margin-left: 100px;
+	width:1150px;
+	height:590px;
+}
+
+.uls-ab{
+	margin-left:80px;
+	margin-top:130px;
+	color: white;
+	font-size: 17px;
+}
+.uls-ab ul{
+	margin-top: 30px;
+}
+
+.uls-ab li > a{
+	color: white;
+	font-size: 16px;
+	margin-left:-50px;
+	line-height: 35px;
+}
+
+.uls-ab li > a:hover{
+	border-bottom: 2px solid purple;
+	color: orange;
+}
+
+
+.footer-logo-ab{
+	margin-top:-50px;
+	position: absolute;
+}
+
+.foot-logo-wrap-ab{
+	margin-left:370px;
+	margin-top:-510px;
+}
+.foot-logo-wrap-ab h1{
+	font-size: 75px;
+	color: white;
+	font-weight: bolder;
+	margin-left: 70px;
+	margin-top: -16px;
+}
+
+.foot-logo-wrap-ab h3{
+	color: white;
+	font-weight: bolder;
+	margin-left: 70px;
+	margin-top: -16px;
+}
+
+.foot-social-wrap-ab{
+		margin-left: 385px;
+		display: flex;
+
+}
+
+
+.foot-social-wrap-ab img{
+		margin: 4px;
+		margin-top: 21px;
+	
+}
+
+.ff-ab{
+	margin-top: 10px;
+}
+
+
+.f-ab{
+	margin-top: 0px;
+	margin-left: -13px;
+}
+
+.twee-ab{
+	margin-top: 7px;
+	margin-left: -3px;
+}
+.intg-ab{
+	margin-top: 9px;
+	margin-left: 5px;
+}
+
+.you1-ab{
+	margin-top: 6px;
+	margin-left: 13px;
+}	
+.foot-social-wrap-ab img:hover{
+	opacity: 0.8;
+	background-color: darkolivegreen;
+	cursor: pointer;
+}
+
+.foot-cont-ab{
+	margin-top: 21px;
+	margin-left: 430px;
+	color: gainsboro;
+	font-size: 14px;
+	line-height: 30px;
+	opacity: 0.5;
+}
+
+.footer-contact-us-ab{
+	margin-top: -401px;
+	margin-left: 880px;
+
+}
+
+.footer-contact-us-ab h4{
+	color: white;
+	font-size: 16px;
+}
+
+
+.footer-contact-us-ab  h5{
+	margin-top: 50px;
+	color: white;
+	font-size: 13px;
+}
+
+.footer-contact-us-ab p{
+	opacity: 0.6;
+	color: white;
+	font-size: 16px;
+}
+
+.footer-contact-us-ab a{
+	opacity: 0.6;
+	color: white;
+	font-size: 16px;
+}
+
+
+
+
+
+
+/*******ADMISSION ADMISSION ADMISSION ADMISSION ADMISSIONADMISSION ADMISSION **********
+/*******ADMISSION ADMISSION ADMISSION ADMISSION ADMISSIONADMISSION ADMISSION **********
+/*******ADMISSION ADMISSION ADMISSION ADMISSION ADMISSIONADMISSION ADMISSION **********
+/*******ADMISSION ADMISSION ADMISSION ADMISSION ADMISSIONADMISSION ADMISSION **********
+/*******ADMISSION ADMISSION ADMISSION ADMISSION ADMISSIONADMISSION ADMISSION **********
+/*******ADMISSION ADMISSION ADMISSION ADMISSION ADMISSIONADMISSION ADMISSION **********
+/*******ADMISSION ADMISSION ADMISSION ADMISSION ADMISSIONADMISSION ADMISSION **********
+/*******ADMISSION ADMISSION ADMISSION ADMISSION ADMISSIONADMISSION ADMISSION **********/
+/*******ADMISSION ADMISSION ADMISSION ADMISSION ADMISSIONADMISSION ADMISSION **********
+/*******ADMISSION ADMISSION ADMISSION ADMISSION ADMISSIONADMISSION ADMISSION **********
+
+
+
+
+
+*{
+	margin: 0px;
+	list-style: none;
+	text-decoration: none;
+	clear: all;
+
+
+}
+body{
+	background-color: 	dimgrey;/*#FFFFE0;*/
+
+/*}*/
+
+/*---------NAVIGATION SECTION------------*/
+/*---------NAVIGATION SECTION------------*/
+/*---------NAVIGATION SECTION------------*/
+
+.wrapper-ad{
+	border:1px solid #191970;
+	width: 100%;
+	height: 65px;	
+	background-color: #191970;
+	position: relative;
+}
+.sub-wrap-ad{
+	margin-top: -10px;
+}
+
+.logo-ad span{
+	
+	font-size: 40px;
+	color: #ffe505;
+	font-weight: bold;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+.logo-ad h2{
+	font-size: 40px;
+	color: black;
+	font-weight: bold;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+.logo-ad a{
+	color: #fffdd5;
+		opacity: 0.9;
+
+}
+
+
+
+/*....HOME----PRODUCT---LEARN---RESOURCES.......*/
+
+
+.sub-home-con-ad ul{
+	display: flex;
+	margin-left: 310px;
+	margin-top: -32px;
+	position: relative;
+	color: white;
+}
+.sub-home-con-ad a{
+ color: white;
+
+}
+
+
+.sub-home-con-ad li:hover,active,focus{
+ border:0px solid #00008B;
+ background-color: #43408B;
+ text-align: center;
+}
+
+.sub-home-con-ad a:hover{
+	transition: 0.5s
+}
+
+.sub-home-con-ad li{
+	margin: 0px 30px 0px 10px;
+
+}
+
+
+/*.....................SIGN......................*/
+
+.sign-ad{
+	position: absolute;
+}
+.sign-ad h3{
+	font-size: 17px;
+	margin-top: -23px;
+	margin-left: 860px;
+	font-weight: normal;
+	position: absolute;	
+	width: 55px;
+}
+
+
+.sign-ad h3 > a{
+	color: white;
+	cursor: pointer;
+
+}
+
+.sign-ad h3:hover{
+	background-color: #00008B;
+	border:0px solid;
+	position: absolute;
+	text-align: center;
+}
+
+.sign-ad button{
+	font-size: 17px;
+	color: black;
+	font-weight: bold;
+	margin-left: 1000px;
+	margin-top: -38px;
+	background-color: orange;
+	position: absolute;
+	height: 30px;
+	cursor: pointer;	
+	border-radius: 5px;
+	height: 45px;
+	width: 	100px;
+	border:2px solid orange;
+}
+
+.sign-ad button:hover{
+	background-color: 	darkorange;
+	border:2px solid	darkorange;
+}
+
+.sign-ad ol{
+	position: absolute;
+	font-size: 18;
+	color: #fa2294;
+	font-weight: bold;
+	margin-left: 1170px;
+	margin-top: -28px;
+}
+
+.sign-ad li >a{
+	color: white;
+	font-weight: normal;
+}
+.sign-ad img{
+	border-radius: 50px;
+	border:1px solid #ff4;
+	margin-left: 1180px;
+	margin-top: -25px;
+	position: absolute;
+	overflow: hidden;
+}
+
+.sign-ad li{
+	color: white;
+}
+
+.language-ad ul > li{
+	display: none;
+
+}
+
+/*----------------DROP DOWN MENU-----------------*/
+
+.language-ad:hover ul > li{
+	display: flex;
+	margin-left: -30px;
+	margin-top: 8px;
+	flex-basis: 260px;
+	font-weight: normal;
+	color: #fff;
+	position: relative;
+	cursor: pointer;
+	line-height: 40px;
+	text-align: center;
+
+}
+
+
+.language-ad:hover ul {
+	margin-top: 19px;
+	margin-left: -20px;
+	background-color: darkblue;
+	width: 72px;
+	border:2px solid grey;
+	border-top-color: #191970;
+	border-radius: 0px 0px 13px 13px;
+	overflow: hidden;
+	text-overflow: hidden;
+	align-items:flex-end;
+	text-align: right;
+
+}
+
+.language-ad ul> li:hover,focus, active {
+	background-color: red;
+	margin-left: -39px;
+}
+
+/*---LOGO ON D LEFT MIDDLE CONTECT AND RIGHT IMAGE-----*/
+/*---LOGO ON D LEFT MIDDLE CONTECT AND RIGHT IMAGE----*/
+/*---LOGO ON D LEFT MIDDLE CONTECT AND RIGHT IMAGE-----*/
+
+
+
+
+/*--------------LOGO----------------------------*/
+
+.main-logo-ad{
+	margin: 0px 0px 0px 0px;
+	border:1px solid;
+	background-color:black;
+	height: 200px;
+	width: 250px;
+
+}
+
+.main-logo-ad img{
+	margin: -80px 0px 0px 15px;
+}
+figure > img:hover{
+	opacity: 0.9;
+	color: black;
+	cursor: pointer;
+}
+
+/*--------------UPPER PART----------------------------*/
+.upper-part-ad{
+	margin-left: 252px;
+	margin-top: -222px;
+	border:0px solid;
+	background-attachment:fixed;
+	background-image: url("../Ark Music/images/bckk1.jpg");
+	background-repeat: no-repeat;
+	color: black;
+	height: 580px;
+	width: 1099px;
+
+
+}
+
+.upper-wrapper-ad a > h1{
+	margin: 440px 0px 0px 100px;
+	color: white;
+	font-size: 50px;
+	position: absolute;
+}
+
+.upper-wrapper-ad h2{
+	margin: 503px 0px 0px 100px;
+	color: darkorange;
+	font-size: 45px;
+	position: absolute;
+}
+
+.upper-wrapper-ad h1{
+	margin: 610px 0px 0px 20px;
+	color: white;
+	font-size: 33px;
+	text-align: justify;
+	width: 800px;
+	line-height: 48px;
+	font-weight: bold;
+	position: absolute;
+}
+.upper-wrapper-ad h3{
+	margin: 720px 0px 0px 20px;
+	color: white;
+	font-size: 19px;
+	text-align: justify;
+	width: 800px;
+	line-height: 30px;
+	font-weight: normal;
+	position: relative;
+}
+
+
+.upper-wrapper-ad p{
+	margin: 20px 0px 0px 20px;
+	text-align: justify;
+	width: 400px;
+	line-height: 30px;
+	font-size: 19px;
+	color: white;
+	position: absolute;
+}
+
+.request-ad button{
+	margin: 80px 0px 0px 480px;
+	border-radius: 8px;
+	background-color: darkblue;
+	width: 335px;
+	padding: 10px;
+	height: 60px;
+	position: relative;
+	
+}
+.request-ad button > h4{
+	font-size: 20px;
+	color: white;
+}
+
+
+.request-ad button:hover{
+	opacity: 0.7;
+	background-color:blue;
+	cursor: pointer;
+}
+
+/*..................APPLY.................*/
+
+.container-Our-Vision{
+	margin-top: 60px;
+}
+
+.apply h4{
+	margin: 250px 0px 0px 320px;
+	font-size: 24px;
+	font-weight: bold;
+	color: darkorange;
+}
+
+.apply h2{
+	margin: 0px 0px 0px 80px;
+	font-size: 35px;
+	width: 880px;
+	color: white;
+	font-weight: normal;
+
+}
+
+
+
+/*---------INFORMATION SECTION LEFT---------*/
+/*---------INFORMATION SECTION LEFT---------*/
+/*---------INFORMATION SECTION LEFT---------*/
+
+
+.wrapper-left-sidebar-ad{
+	position: absolute;
+	margin-top: -409px;
+	line-height: 22px;
+	background-color: #FFFF;
+	width: 251px;
+	box-sizing: border-box;
+	height: 720px;
+}
+.wrapper-left-sidebar-ad h2{
+	margin-left:30px;
+	margin-top: 20px;
+}
+.wrapper-left-sidebar-ad h4{
+	margin-left:30px;
+	font-size: 15px;
+	box-sizing: border-box;
+
+}
+
+.wrapper-left-sidebar-ad a > h2{
+	font-size: 16px;
+}
+.wrapper-left-sidebar-ad a > h2:hover{
+	color: darkgreen;
+	border-bottom: 2px solid darkorange;
+	width: 210px;
+	position: all;
+	box-sizing: border-box;
+}
+
+
+
+/*-------------GRID FOR PICTURE--------------------*/
+/*-------------GRID FOR PICTURE--------------------*/
+/*-------------GRID FOR PICTURE--------------------*/
+
+.wrapper-grid{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-rows:repeat(3, 1fr);
+	grid-template-columns: repeat(3, 1fr);
+	height: 400px;
+	margin: 900px 20px 0px 40px;
+	position: absolute;
+}
+.upper-item{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	background-color: #fff4;
+	margin-top: 50px;
+	position: relative;
+}
+.small{
+	grid-row: span 3;
+	grid-column: span 1;
+	overflow: hidden;
+
+}
+
+.small a > h2{
+	margin: -92px 0px 0px -420px;
+	border-color: white;
+	font-size: 26px;
+	width: 360px;
+	padding: 30px;
+	border:1px solid none;
+	color: black;
+	background-color: white;
+	text-align: center;
+	cursor: pointer;
+}
+
+.small h2:hover{
+	transition: 0.5s;
+	transform: scale(1.2, 1.2);
+	transition-timing-function:ease-out;
+}
+
+.small h2:hover{
+	opacity: 0.7;
+	color:red;
+	background-color: black;
+	
+}
+
+.wide{
+	grid-row: span 3;
+	grid-column: span 1;
+	background-color: white;
+	overflow: hidden;
+}
+
+.wide h2:hover{
+	transition: 0.6s;
+	transform: scale(1.2, 1.2);
+}
+
+.wide a > h2{
+	margin: -91px 0px 0px -419px;
+	border-color: white;
+	font-size: 26px;
+	width: 362px;
+	padding: 29px 29px 29px 28px;
+	border:0px thin none;
+	color: black;
+	background-color: white;
+	text-align: center;
+	cursor: pointer;
+}
+
+.wide h2:hover{
+	opacity: 0.7;
+	color:red;
+	background-color: black;
+}
+
+.tall{
+	grid-row: span 3;
+	grid-column: span 1;
+	background-color: white;
+	position: relative;
+	overflow: hidden;
+
+}
+
+.tall h2:hover{
+	transition: 0.6s;
+	transform: scale(1.2, 1.2);
+}
+
+.tall a > h2{
+	margin: -92px 0px 0px -420px;
+	border-color: white;
+	font-size: 26px;
+	width: 360px;
+	padding: 30px;
+	border:1px solid none;
+	color: black;
+	background-color: white;
+	text-align: center;
+	cursor: pointer;
+}
+
+.tall h2:hover{
+	opacity: 0.7;
+	color:red;
+	background-color: black;
+}
+
+
+
+
+
+
+/*.............BACKGROUND AND OPACITY..........*/
+
+
+
+.main-back > img{
+
+	margin-top: 1299px;
+	border:0px solid;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	height: 580px;
+	width: 1352px;
+    mask-image: gradient(linear,0 66%,left bottom,from(#000),to(transparent));
+    opacity: 0.25;
+    /*filter: blur(3px);*/
+    filter: brightness(.5);
+    
+}
+
+
+.main-back h3{
+	margin: -521px 0px 0px 500px;
+	font-size: 20px;
+	font-weight: bolder;
+	color: darkorange;
+	position: absolute;
+}
+
+
+.main-back h1{
+	margin: -492px 0px 0px 470px;
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+
+}
+
+.main-back ul{
+	margin: 91px 0px 0px 220px;
+
+}
+
+
+.nothin{
+	margin: -40px 0px 0px 0px; 
+}
+.nothin li > img{
+	margin-bottom: 10px;
+	border-radius: 40px;
+	border:0px solid black;
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+}
+
+.nothin a{
+	margin: 110px 0px 0px 0px;
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+}
+.nothin p{
+	margin: -45px 0px 0px 45px;
+	position: absolute;
+}
+.nothin li{
+	margin-top: 20px;
+}
+.nothin p:hover{
+	border-bottom: 2px solid darkorange;
+	color: darkblue;
+}
+
+
+
+
+
+.second-last{
+	margin: -373px 0px 0px 600px;
+
+}
+
+.second-last li{
+	margin-top: 20px;
+}
+
+.second-last li > img{
+	margin-bottom: 10px;
+	border-radius: 40px;
+	border:0px solid black;
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+}
+
+.second-last a {
+	margin: 110px 0px 0px 0px;
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+
+.second-last  p{
+	margin: -50px 0px 0px 45px;	
+	position: absolute;
+}
+.second-last p:hover{
+	border-bottom: 2px solid darkorange;
+	color: darkblue;
+}
+
+
+.last-part li > img{
+	margin-bottom: 10px;
+	border-radius: 40px;
+	border:0px solid black;
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+}
+
+.last-part a {
+	margin: 110px 0px 0px 0px;
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+
+}
+.last-part{
+	margin: -296px 0px 0px 930px;
+}
+.last-part p{
+	margin: -45px 0px 0px 45px;
+	position: absolute;
+}
+.last-part li{
+	margin-top: 20px;
+}
+.last-part p:hover{
+	border-bottom: 2px solid darkorange;
+	color: darkblue;
+}
+
+
+
+/*<!------------HOW FAR DO YOU WITH PROGRAM--------------->*/
+/*<!------------HOW FAR DO YOU WITH PROGRAM--------------->
+<!--------------HOW FAR DO YOU WITH PROGRAM--------------->
+<!--------------HOW FAR DO YOU WITH PROGRAM--------------->
+*/
+
+
+.program-wrapper{
+	margin: 114px 0px 0px 0px;
+	color: white;
+	font-size: 17px;
+	background-color: lightgoldenrodyellow;
+	width: 100.2%;
+	height: 370px;
+}
+
+.pro-img img{
+	margin: 0px 0px 0px 70px;
+}
+
+.degree{
+	margin: -320px 0px 0px 740px;
+	color: black;
+	width: 600px;
+}
+
+.degree h4{
+	color: darkslategray;
+	font-size: 22px;
+}
+
+.degree h2{
+	color: darkslategray;
+	font-size: 42px;
+	font-weight: normal;
+}
+
+.degree p{
+	color: darkslategray;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.anchor li a{
+	color: mediumblue;
+	font-size: 18px;
+	line-height: 50px;
+	margin-top: 50px;
+}
+
+.degree li > a:hover{
+	color: midnightblue;
+	border-bottom: 2px solid darkorange;
+}
+
+.anchor li{
+	display: inline;
+	margin-left: -40px;
+	padding-right: 40px;
+	margin-top: 40px;
+	position: relative;
+
+}
+
+
+
+/*-------------FOOTER-------------------*/
+/*-------------FOOTER-------------------*/
+/*-------------FOOTER-------------------*/
+/*-------------FOOTER-------------------*/
+
+.container-all-ad{
+	margin-top: -1000px;
+}
+.footer-ad{
+	background-color: white;
+	position: absolute;
+	margin-top: 1000px;
+	width:1351px;
+	height:820px;
+}
+
+.wrapper-footer-ad{
+	background-color: #262626;
+	position: absolute;
+	margin-left: 100px;
+	width:1150px;
+	height:590px;
+}
+
+.uls-ad{
+	margin-left:80px;
+	margin-top:130px;
+	color: white;
+	font-size: 17px;
+}
+.uls-ad ul{
+	margin-top: 30px;
+}
+
+.uls-ad li > a{
+	color: white;
+	font-size: 16px;
+	margin-left:-50px;
+	line-height: 35px;
+}
+
+.uls-ad li > a:hover{
+	border-bottom: 2px solid purple;
+	color: orange;
+}
+
+
+.footer-logo-ad{
+	margin-top:-50px;
+	position: absolute;
+}
+
+.foot-logo-wrap-ad{
+	margin-left:370px;
+	margin-top:-510px;
+}
+.foot-logo-wrap-ad h1{
+	font-size: 75px;
+	color: white;
+	font-weight: bolder;
+	margin-left: 70px;
+	margin-top: -16px;
+}
+
+.foot-logo-wrap-ad h3{
+	color: white;
+	font-weight: bolder;
+	margin-left: 70px;
+	margin-top: -16px;
+}
+
+.foot-social-wrap-ad{
+		margin-left: 385px;
+		display: flex;
+
+}
+
+
+.foot-social-wrap-ad img{
+		margin: 4px;
+		margin-top: 21px;
+	
+}
+
+.ff-ad{
+	margin-top: 10px;
+}
+
+
+.f-ad{
+	margin-top: 0px;
+	margin-left: -13px;
+}
+
+.twee-ad{
+	margin-top: 7px;
+	margin-left: -3px;
+}
+.intg-ad{
+	margin-top: 9px;
+	margin-left: 5px;
+}
+
+.you1-ad{
+	margin-top: 6px;
+	margin-left: 13px;
+}	
+.foot-social-wrap-ad img:hover{
+	opacity: 0.8;
+	background-color: darkolivegreen;
+	cursor: pointer;
+}
+
+.foot-cont-ad{
+	margin-top: 21px;
+	margin-left: 430px;
+	color: gainsboro;
+	font-size: 14px;
+	line-height: 30px;
+	opacity: 0.5;
+}
+
+.footer-contact-us-ad{
+	margin-top: -401px;
+	margin-left: 880px;
+
+}
+
+.footer-contact-us-ad h4{
+	color: white;
+	font-size: 16px;
+}
+
+
+.footer-contact-us-ad  h5{
+	margin-top: 50px;
+	color: white;
+	font-size: 13px;
+}
+
+.footer-contact-us-ad p{
+	opacity: 0.6;
+	color: white;
+	font-size: 16px;
+}
+
+.footer-contact-us-ad a{
+	opacity: 0.6;
+	color: white;
+	font-size: 16px;
+}
+
+
+
+/*-SIGN UP PAGE SIGN UP PAGE SIGN UP PAGE SIGN UP PAGE SIGN UP PAGE */
+/*-SIGN UP PAGE SIGN UP PAGE SIGN UP PAGE SIGN UP PAGE SIGN UP PAGE */
+/*-SIGN UP PAGE SIGN UP PAGE SIGN UP PAGE SIGN UP PAGE SIGN UP PAGE */
+/*-SIGN UP PAGE SIGN UP PAGE SIGN UP PAGE SIGN UP PAGE SIGN UP PAGE */
+/*-SIGN UP PAGE SIGN UP PAGE SIGN UP PAGE SIGN UP PAGE SIGN UP PAGE */
+/*-SIGN UP PAGE SIGN UP PAGE SIGN UP PAGE SIGN UP PAGE SIGN UP PAGE */
+/*-SIGN UP PAGE SIGN UP PAGE SIGN UP PAGE SIGN UP PAGE SIGN UP PAGE */
+/*-SIGN UP PAGE SIGN UP PAGE SIGN UP PAGE SIGN UP PAGE SIGN UP PAGE */
+/*-SIGN UP PAGE SIGN UP PAGE SIGN UP PAGE SIGN UP PAGE SIGN UP PAGE */
+
+
+
+
+
+/*---------NAVIGATION SECTION------------*/
+/*---------NAVIGATION SECTION------------*/
+/*---------NAVIGATION SECTION------------*/
+
+#container-nav-sp{
+
+}
+
+.wrapper-sp{
+	border:1px solid #191970;
+	width: 100%;
+	height: 65px;	
+	background-color: #191970;
+	position: relative;
+}
+.sub-wrap-sp{
+	margin-top: -10px;
+}
+
+.logo-sp span{
+	
+	font-size: 40px;
+	color: #ffe505;
+	font-weight: bold;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+.logo-sp h2{
+	font-size: 40px;
+	color: black;
+	font-weight: bold;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+.logo-sp a{
+	color: #fffdd5;
+		opacity: 	0.9;
+
+}
+
+
+
+/*....HOME----PRODUCT---LEARN---RESOURCES.......*/
+
+
+.sub-home-con-sp ul{
+	display: flex;
+	margin-left: 310px;
+	margin-top: -32px;
+	position: relative;
+	color: white;
+}
+.sub-home-con-sp a{
+ color: white;
+
+}
+
+
+.sub-home-con-sp li:hover,active,focus{
+ border:0px solid #00008B;
+ background-color: #43408B;
+ text-align: center;
+}
+
+.sub-home-con-sp a:hover{
+	transition: 0.5s
+}
+
+.sub-home-con-sp li{
+	margin: 0px 30px 0px 10px;
+
+}
+
+
+/*.....................SIGN......................*/
+
+.sign-sp{
+	position: absolute;
+}
+.sign-sp h3{
+	font-size: 17px;
+	margin-top: -23px;
+	margin-left: 860px;
+	font-weight: normal;
+	position: absolute;	
+	width: 55px;
+}
+
+
+.sign-sp h3 > a{
+	color: white;
+	cursor: pointer;
+
+}
+
+.sign-sp h3:hover{
+	background-color: #00008B;
+	border:0px solid;
+	position: absolute;
+	text-align: center;
+}
+
+.sign-sp button{
+	font-size: 17px;
+	color: black;
+	font-weight: bold;
+	margin-left: 1000px;
+	margin-top: -38px;
+	background-color: orange;
+	position: absolute;
+	height: 30px;
+	cursor: pointer;	
+	border-radius: 5px;
+	height: 45px;
+	width: 	100px;
+	border:2px solid orange;
+}
+
+.sign-sp button:hover{
+	background-color: 	darkorange;
+	border:2px solid	darkorange;
+}
+
+.sign-sp ol{
+	position: absolute;
+	font-size: 18;
+	color: #fa2294;
+	font-weight: bold;
+	margin-left: 1170px;
+	margin-top: -28px;
+
+}
+
+.sign-sp li >a{
+	color: white;
+	font-weight: normal;
+}
+.sign-sp img{
+	border-radius: 50px;
+	border:1px solid #ff4;
+	margin-left: 1180px;
+	margin-top: -25px;
+	position: absolute;
+	overflow: hidden;
+}
+
+.sign-sp li{
+	color: white;
+}
+
+.language-sp ul > li{
+	display: none;
+
+}
+
+/*----------------DROP DOWN MENU-----------------*/
+
+.language-sp:hover ul > li{
+	display: flex;
+	margin-left: -30px;
+	margin-top: 8px;
+	flex-basis: 260px;
+	font-weight: normal;
+	color: #fff;
+	position: relative;
+	cursor: pointer;
+	line-height: 40px;
+	text-align: center;
+
+}
+
+
+.language-sp:hover ul {
+	margin-top: 19px;
+	margin-left: -20px;
+	background-color: darkblue;
+	width: 72px;
+	border:2px solid grey;
+	border-top-color: #191970;
+	border-radius: 0px 0px 13px 13px;
+	overflow: hidden;
+	text-overflow: hidden;
+	align-items:flex-end;
+	text-align: right;
+
+}
+
+.language-sp ul> li:hover,focus, active {
+	background-color: red;
+	margin-left: -39px;
+}
+
+
+
+
+/*---LOGO ON D LEFT MIDDLE CONTECT AND RIGHT IMAGE-----*/
+/*---LOGO ON D LEFT MIDDLE CONTECT AND RIGHT IMAGE----*/
+/*---LOGO ON D LEFT MIDDLE CONTECT AND RIGHT IMAGE-----*/
+
+
+
+
+/*--------------LOGO----------------------------*/
+
+.main-logo-sp{
+	margin: 0px 0px 0px 0px;
+	border:1px solid;
+	background-color:black;
+	height: 200px;
+	width: 250px;
+
+}
+
+.main-logo-sp img{
+	margin: -80px 0px 0px 15px;
+}
+figure > img:hover{
+	opacity: 0.9;
+	color: black;
+	cursor: pointer;
+}
+
+/*--------------UPPER PART----------------------------*/
+
+#container-leftside-sp{
+
+}
+
+.upper-part-sp{
+	margin-left: 252px;
+	margin-top: -222px;
+	border:0px solid;
+	background-attachment:fixed;
+	background-image: url("../Ark Music/images/bc8.jpeg");
+	background-repeat: no-repeat;
+	height: 580px;
+	width: 1099px;
+
+}
+
+.upper-wrapper-sp a > h1{
+	margin: 500px 0px 0px 20px;
+	color: white;
+	font-size: 40px;
+	position: absolute;
+}
+
+.upper-wrapper-sp h3{
+	margin: 590px 0px 0px 20px;
+	color: white;
+	font-size: 22px;
+	width: 800px;
+	font-weight: bold;
+	position: absolute;
+}
+
+.upper-wrapper-sp h4{
+	margin: 640px 0px 0px 20px;
+	color: white;
+	font-size: 24px;
+	width: 800px;
+	font-weight: bolder;
+	position: absolute;
+}
+
+
+
+.request-sp{
+	margin: 340px 0px 0px 350px;
+}
+
+.request-sp button{
+	margin: 780px 0px 0px 480px;
+	border-radius: 8px;
+	background-color: darkblue;
+	width: 265px;
+	padding: 10px;
+	height: 60px;
+	position: absolute;
+	
+}
+.request-sp button > h4{
+	font-size: 20px;
+	color: white;
+	margin: -10px 0px 0px -10px;
+	width: 265px;
+}
+
+
+.request-sp button:hover{
+	opacity: 0.7;
+	background-color:blue;
+	cursor: pointer;
+}
+
+
+.cover-form{
+	margin: 558px 0px 0px 857px;
+	background-color: darkslategray;
+	padding: 10px;
+	width: 220px;
+	height: 250px;
+	position: relative;
+
+}
+
+.cover-form input{
+	margin: 10px;
+	padding: 15px;
+	height: 10px;
+	text-align: center;
+
+}
+
+.cover-form h2{
+	margin: 0px 0px 0px 45px;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+.spring-sp ol {
+	margin: 730px 0px 0px 0px;
+	width: 600px;
+	line-height: 40px;
+	font-size: 19px;
+	color: white;
+	position: absolute;
+}
+.spring-sp li{
+	list-style: decimal;
+}
+
+.fall ol{
+	margin: 1220px 0px 0px 20px;
+	width: 600px;
+	line-height: 40px;
+	font-size: 19px;
+	color: white;
+	list-style: circle;
+	position: absolute;
+}
+
+.fall h3{
+	margin: 1160px 0px 0px 10px;
+	line-height: 40px;
+	font-size: 24px;
+	color: white;
+	position: absolute;
+}
+.fall li{
+	list-style: decimal;
+}
+
+
+.MATERIALS ol{
+	margin: 1900px 0px 0px -290px;
+	width: 100%;
+	line-height: 40px;
+	font-size: 19px;
+	color: white;
+	list-style: circle;
+	position: absolute;
+}
+
+.MATERIALS li:hover{
+	color: 	indigo;
+	cursor: pointer;
+	border-bottom: 2px solid darkorange;
+}
+
+
+.MATERIALS h3{
+	margin: 1840px 0px 0px -220px;
+	line-height: 40px;
+	font-size: 21px;
+	color: white;
+	position: absolute;
+}
+.MATERIALS li{
+	display: inline;
+	margin-left: 100px;
+	
+}
+.Application{
+	margin: 180px 0px 0px -30px;
+}
+.Application ol{
+	display: inline;
+	margin: 1920px 0px 0px -60px;
+	width: 600px;
+	line-height: 40px;
+	font-size: 19px;
+	color: white;
+	list-style: circle;
+	position: absolute;
+}
+
+.Application h3{
+	margin: 1840px 0px 0px -180px;
+	line-height: 40px;
+	font-size: 21px;
+	color: white;
+	position: absolute;
+}
+.Application li{
+	list-style: circle;
+}
+
+/*----------------FORM SECTION LEFT---------*/
+/*----------------FORM SECTION LEFT---------*/
+#form-container-sp{
+
+}
+
+.form-wrapper-sp{
+	margin-left: 930px;
+	background-color: #262626;
+	position: absolute;
+	width: 418px;
+	height: 890px;
+	box-sizing: border-box;
+	margin-top: 1400px;
+
+}
+.form-wrapper-sp form{
+		margin-left: 60px;
+		margin-top: 30px;
+
+}
+.form-wrapper-sp input{
+	font-size: 20px;
+	height: 40px;
+	margin: 7px;
+	width: 295px;
+}
+
+
+.form-wrapper-sp select{
+	width: 295px;
+	font-size: 20px;
+	height: 40px;
+	margin: 7px;
+}
+.form-wrapper-sp textarea{
+	width: 292px;
+	font-size: 22px;
+	height: 40px;
+	margin-left: 5px;
+	margin-top: -16px;
+}
+.form-wrapper-sp h3{
+	font-size: 18px;
+	margin:-10px 0px 20px 0px;
+	color: brown;
+	width: 360px;
+
+}
+
+
+
+
+/*---------INFORMATION SECTION LEFT---------*/
+/*---------INFORMATION SECTION LEFT---------*/
+/*---------INFORMATION SECTION LEFT---------*/
+
+#left-sidebar-sp{
+
+}
+
+.wrapper-left-sidebar-sp{
+	position: absolute;
+	margin-top: -409px;
+	line-height: 22px;
+	background-color: #FFFF;
+	width: 251px;
+	box-sizing: border-box;
+	height: 720px;
+}
+.wrapper-left-sidebar-sp h2{
+	margin-left:30px;
+	margin-top: 20px;
+}
+.wrapper-left-sidebar-sp h4{
+	margin-left:30px;
+	font-size: 15px;
+	box-sizing: border-box;
+
+}
+
+.wrapper-left-sidebar-sp a > h2{
+	font-size: 14px;
+}
+.wrapper-left-sidebar-sp a > h2:hover{
+	color: darkgreen;
+	border-bottom: 2px solid darkorange;
+	width: 210px;
+	position: all;
+	box-sizing: border-box;
+}
+
+
+
+/*-------------FOOTER-------------------*/
+/*-------------FOOTER-------------------*/
+/*-------------FOOTER-------------------*/
+/*-------------FOOTER-------------------*/
+
+#container-all-sp{
+	margin-top: 1390px;
+}
+.footer-sp{
+	background-color: white;
+	position: absolute;
+	margin-top: 1000px;
+	width:1351px;
+	height:820px;
+}
+
+.wrapper-footer-sp{
+	background-color: #262626;
+	position: absolute;
+	margin-left: 100px;
+	width:1150px;
+	height:590px;
+}
+
+.uls-sp{
+	margin-left:80px;
+	margin-top:130px;
+	color: white;
+	font-size: 17px;
+}
+.uls-sp ul{
+	margin-top: 30px;
+}
+
+.uls-sp li > a{
+	color: white;
+	font-size: 16px;
+	margin-left:-50px;
+	line-height: 35px;
+}
+
+.uls-sp li > a:hover{
+	border-bottom: 2px solid purple;
+	color: orange;
+}
+
+
+.footer-logo-sp{
+	margin-top:-50px;
+	position: absolute;
+}
+
+.foot-logo-wrap-sp{
+	margin-left:370px;
+	margin-top:-510px;
+}
+.foot-logo-wrap-sp h1{
+	font-size: 75px;
+	color: white;
+	font-weight: bolder;
+	margin-left: 70px;
+	margin-top: -16px;
+}
+
+.foot-logo-wrap-sp h3{
+	color: white;
+	font-weight: bolder;
+	margin-left: 70px;
+	margin-top: -16px;
+}
+
+.foot-social-wrap-sp{
+		margin-left: 385px;
+		display: flex;
+
+}
+
+
+.foot-social-wrap-sp img{
+		margin: 4px;
+		margin-top: 21px;
+	
+}
+
+.ff-sp{
+	margin-top: 10px;
+}
+
+
+.f-sp{
+	margin-top: 0px;
+	margin-left: -13px;
+}
+
+.twee-sp{
+	margin-top: 7px;
+	margin-left: -3px;
+}
+.intg-sp{
+	margin-top: 9px;
+	margin-left: 5px;
+}
+
+.you1-sp{
+	margin-top: 6px;
+	margin-left: 13px;
+}	
+.foot-social-wrap-sp img:hover{
+	opacity: 0.8;
+	background-color: darkolivegreen;
+	cursor: pointer;
+}
+
+.foot-cont-sp{
+	margin-top: 21px;
+	margin-left: 430px;
+	color: gainsboro;
+	font-size: 14px;
+	line-height: 30px;
+	opacity: 0.5;
+}
+
+.footer-contact-us-sp{
+	margin-top: -401px;
+	margin-left: 880px;
+
+}
+
+.footer-contact-us-sp h4{
+	color: white;
+	font-size: 16px;
+}
+
+
+.footer-contact-us-sp  h5{
+	margin-top: 50px;
+	color: white;
+	font-size: 13px;
+}
+
+.footer-contact-us-sp p{
+	opacity: 0.6;
+	color: white;
+	font-size: 16px;
+}
+
+.footer-contact-us-sp a{
+	opacity: 0.6;
+	color: white;
+	font-size: 16px;
+}
+
+
+
+/*student student sstudent student student student student student */
+/*student student sstudent student student student student student */
+/*student student sstudent student student student student student */
+/*student student sstudent student student student student student */
+/*student student sstudent student student student student student */
+/*student student sstudent student student student student student */
+/*student student sstudent student student student student student */
+/*student student sstudent student student student student student */
+/*student student sstudent student student student student student */
+
+
+
+
+
+
+
+/*---------NAVIGATION SECTION------------
+/*---------NAVIGATION SECTION------------*/
+/*---------NAVIGATION SECTION------------*/
+
+.wrapper-std{
+	border:1px solid #191970;
+	width: 100%;
+	height: 65px;	
+	background-color: #191970;
+	position: relative;
+}
+.sub-wrap-std{
+	margin-top: -10px;
+}
+
+.logo-std span{
+	
+	font-size: 40px;
+	color: #ffe505;
+	font-weight: bold;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+.logo-std h2{
+	font-size: 40px;
+	color: black;
+	font-weight: bold;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+.logo-std a{
+	color: #fffdd5;
+		opacity: 0.9;
+
+}
+
+
+
+/*....HOME----PRODUCT---LEARN---RESOURCES.......*/
+
+
+.sub-home-con-std ul{
+	display: flex;
+	margin-left: 310px;
+	margin-top: -32px;
+	position: relative;
+	color: white;
+}
+.sub-home-con-std a{
+ color: white;
+
+}
+
+
+.sub-home-con-std li:hover,active,focus{
+ border:0px solid #00008B;
+ background-color: #43408B;
+ text-align: center;
+}
+
+.sub-home-con-std a:hover{
+	transition: 0.5s
+}
+
+.sub-home-con-std li{
+	margin: 0px 30px 0px 10px;
+
+}
+
+
+/*.....................SIGN......................*/
+
+.sign-std{
+	position: absolute;
+}
+.sign-std h3{
+	font-size: 17px;
+	margin-top: -23px;
+	margin-left: 860px;
+	font-weight: normal;
+	position: absolute;	
+	width: 55px;
+}
+
+
+.sign-std h3 > a{
+	color: white;
+	cursor: pointer;
+
+}
+
+.sign-std h3:hover{
+	background-color: #00008B;
+	border:0px solid;
+	position: absolute;
+	text-align: center;
+}
+
+.sign-std button{
+	font-size: 17px;
+	color: black;
+	font-weight: bold;
+	margin-left: 1000px;
+	margin-top: -38px;
+	background-color: orange;
+	position: absolute;
+	height: 30px;
+	cursor: pointer;	
+	border-radius: 5px;
+	height: 45px;
+	width: 	100px;
+	border:2px solid orange;
+}
+
+.sign-std button:hover{
+	background-color: 	darkorange;
+	border:2px solid	darkorange;
+}
+
+.sign-std ol{
+	position: absolute;
+	font-size: 18;
+	color: #fa2294;
+	font-weight: bold;
+	margin-left: 1170px;
+	margin-top: -28px;
+}
+
+.sign-std li >a{
+	color: white;
+	font-weight: normal;
+}
+.sign-std img{
+	border-radius: 50px;
+	border:1px solid #ff4;
+	margin-left: 1180px;
+	margin-top: -25px;
+	position: absolute;
+	overflow: hidden;
+}
+
+.sign-std li{
+	color: white;
+}
+
+.language-std ul > li{
+	display: none;
+
+}
+
+/*----------------DROP DOWN MENU-----------------*/
+
+.language-std:hover ul > li{
+	display: flex;
+	margin-left: -30px;
+	margin-top: 8px;
+	flex-basis: 260px;
+	font-weight: normal;
+	color: #fff;
+	position: relative;
+	cursor: pointer;
+	line-height: 40px;
+	text-align: center;
+
+}
+
+
+.language-std:hover ul {
+	margin-top: 19px;
+	margin-left: -20px;
+	background-color: darkblue;
+	width: 72px;
+	border:2px solid grey;
+	border-top-color: #191970;
+	border-radius: 0px 0px 13px 13px;
+	overflow: hidden;
+	text-overflow: hidden;
+	align-items:flex-end;
+	text-align: right;
+
+}
+
+.language-std ul> li:hover,focus, active {
+	background-color: red;
+	margin-left: -39px;
+}
+
+/*---LOGO ON D LEFT MIDDLE CONTECT AND RIGHT IMAGE-----*/
+/*---LOGO ON D LEFT MIDDLE CONTECT AND RIGHT IMAGE----*/
+/*---LOGO ON D LEFT MIDDLE CONTECT AND RIGHT IMAGE-----*/
+
+
+
+
+/*--------------LOGO----------------------------*/
+/*--------------LOGO----------------------------*/
+/*--------------LOGO----------------------------*/
+
+
+
+.main-logo-std{
+	margin: 0px 0px 0px 0px;
+	border:1px solid;
+	background-color:black;
+	height: 200px;
+	width: 250px;
+
+}
+
+.main-logo-std img{
+	margin: -80px 0px 0px 15px;
+}
+figure > img:hover{
+	opacity: 0.9;
+	color: black;
+	cursor: pointer;
+}
+
+/*--------------UPPER PART----------------------------*/
+/*--------------UPPER PART----------------------------*/
+/*--------------UPPER PART----------------------------*/
+
+
+.upper-part-std{
+	margin-left: 252px;
+	margin-top: -222px;
+	border:0px solid;
+	background-attachment:fixed;
+	background-image: url("../Ark Music/images/bck2.jpeg");
+	background-repeat: no-repeat;
+	color: black;
+	height: 580px;
+	width: 1099px;
+
+
+}
+
+.upper-wrapper-std a > h1{
+	margin: 440px 0px 0px 100px;
+	color: 	darkblue;
+	font-size: 50px;
+	position: absolute;
+}
+
+.upper-wrapper-std h2{
+	margin: 503px 0px 0px 100px;
+	color: darkorange;
+	font-size: 45px;
+	position: absolute;
+}
+
+.upper-wrapper-std h1{
+	margin: 610px 0px 0px 20px;
+	color: white;
+	font-size: 33px;
+	text-align: justify;
+	width: 800px;
+	line-height: 48px;
+	font-weight: bold;
+	position: absolute;
+}
+.upper-wrapper-std h3{
+	margin: 720px 0px 0px 20px;
+	color: white;
+	font-size: 19px;
+	text-align: justify;
+	width: 800px;
+	line-height: 30px;
+	font-weight: normal;
+	position: relative;
+}
+
+
+.upper-wrapper-std p{
+	margin: 20px 0px 0px 20px;
+	text-align: justify;
+	width: 400px;
+	line-height: 30px;
+	font-size: 19px;
+	color: white;
+	position: absolute;
+}
+
+
+/*------------------BUTTONS------------------*/
+/*------------------BUTTONS------------------*/
+/*------------------BUTTONS------------------*/
+
+.request-std button{
+	margin: 0px 0px 0px 480px;
+	border-radius: 8px;
+	background-color: darkblue;
+	width: 335px;
+	padding: 10px;
+	height: 60px;
+	position: relative;
+	
+}
+.request-std button > h4{
+	font-size: 20px;
+	color: white;
+}
+
+
+.request-std button:hover{
+	opacity: 0.7;
+	background-color:blue;
+	cursor: pointer;
+}
+
+
+.Apply-bttn-std button{
+	margin: 10px 0px 0px 480px;
+	border-radius: 8px;
+	width: 335px;
+	padding: 10px;
+	height: 60px;
+	position: relative;
+	
+}
+.Apply-bttn-std button > h4{
+	font-size: 20px;
+	color: darkblue;
+}
+
+
+.Apply-bttn-std button:hover{
+	opacity: 0.9;
+	cursor: pointer;
+	border:3px solid darkred;
+}
+
+.Apply-bttn-std button h4:hover{
+	opacity: 0.9;
+	cursor: pointer;
+	color: darkred;
+}
+
+
+.pre-college-bttn-std button{
+	margin: 10px 0px 0px 480px;
+	border-radius: 8px;
+	background-color: darkblue;
+	width: 335px;
+	padding: 10px;
+	height: 60px;
+	position: relative;
+	
+}
+.pre-college-bttn-std button > h4{
+	font-size: 20px;
+	color: white;
+}
+
+
+.pre-college-bttn-std button:hover{
+	opacity: 0.7;
+	background-color:blue;
+	cursor: pointer;
+}
+
+/*..................APPLY.................*/
+/*..................APPLY.................*/
+/*..................APPLY.................*/
+
+
+.container-Our-Vision-std{
+	background-color: #F8403D;
+	width: 127.29%;
+	margin: 180px 0px 0px -300px;
+	height: 280px;
+
+}
+
+.apply-std h4{
+	margin: 50px 0px 0px 550px;
+	font-size: 17px;
+	font-weight: bold;
+	color: gold;
+	position: absolute;	
+}
+
+.apply-std h3{
+	margin: 60px 0px 0px 470px;
+	font-size: 32px;
+	font-weight: normal;
+	color: white;
+}
+
+.apply-std h2{
+	margin: 30px 0px 0px 180px;
+	font-size: 20px;
+	color: white;
+	font-weight: normal;
+
+}
+.apply-std span{
+	font-weight: bold;
+	font-size: 20px;
+}
+.apply-std p{
+	margin: 10px 0px 0px 0px;
+	font-size: 18px;
+	width: 1000px;
+	color: white;
+	text-indent: 250px;
+
+}
+.apply-std a{
+	color:gold;
+}
+
+.video-std{
+	margin: -47px 0px 0px 0px;
+
+}
+
+/*---------INFORMATION SECTION LEFT---------*/
+/*---------INFORMATION SECTION LEFT---------*/
+/*---------INFORMATION SECTION LEFT---------*/
+
+
+.wrapper-left-sidebar-std{
+	position: absolute;
+	margin-top: -409px;
+	line-height: 22px;
+	background-color: #FFFF;
+	width: 251px;
+	box-sizing: border-box;
+	height: 720px;
+}
+.wrapper-left-sidebar-std h2{
+	margin-left:30px;
+	margin-top: 20px;
+}
+.wrapper-left-sidebar-std h4{
+	margin-left:30px;
+	font-size: 15px;
+	box-sizing: border-box;
+
+}
+
+.wrapper-left-sidebar-std a > h2{
+	font-size: 16px;
+}
+.wrapper-left-sidebar-std a > h2:hover{
+	color: darkgreen;
+	border-bottom: 2px solid darkorange;
+	width: 210px;
+	position: all;
+	box-sizing: border-box;
+}
+
+
+
+/*-------------GRID FOR PICTURE--------------------*/
+/*-------------GRID FOR PICTURE--------------------*/
+/*-------------GRID FOR PICTURE--------------------*/
+
+.wrapper-grid-std{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-rows:repeat(3, 1fr);
+	grid-template-columns: repeat(3, 1fr);
+	height: 400px;
+	margin: -50px 20px 0px 40px;
+	position: absolute;
+}
+.upper-item-std{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	background-color: #fff4;
+	margin-top: 50px;
+	position: relative;
+}
+.small-std{
+	grid-row: span 3;
+	grid-column: span 1;
+	overflow: hidden;
+
+}
+
+.small-std a > h2{
+	margin: -92px 0px 0px -420px;
+	border-color: white;
+	font-size: 26px;
+	width: 360px;
+	padding: 30px;
+	border:1px solid none;
+	color: black;
+	background-color: white;
+	text-align: center;
+	cursor: pointer;
+}
+
+.small-std h2:hover{
+	transition: 0.5s;
+	transform: scale(1.2, 1.2);
+	transition-timing-function:ease-out;
+}
+
+.small-std h2:hover{
+	opacity: 0.7;
+	color:red;
+	background-color: black;
+	
+}
+
+.wide-std{
+	grid-row: span 3;
+	grid-column: span 1;
+	background-color: white;
+	overflow: hidden;
+}
+
+.wide-std h2:hover{
+	transition: 0.6s;
+	transform: scale(1.2, 1.2);
+}
+
+.wide-std a > h2{
+	margin: -91px 0px 0px -419px;
+	border-color: white;
+	font-size: 26px;
+	width: 362px;
+	padding: 29px 29px 29px 28px;
+	border:0px thin none;
+	color: black;
+	background-color: white;
+	text-align: center;
+	cursor: pointer;
+}
+
+.wide-std h2:hover{
+	opacity: 0.7;
+	color:red;
+	background-color: black;
+}
+
+.tall-std{
+	grid-row: span 3;
+	grid-column: span 1;
+	background-color: white;
+	position: relative;
+	overflow: hidden;
+
+}
+
+.tall-std h2:hover{
+	transition: 0.6s;
+	transform: scale(1.2, 1.2);
+}
+
+.tall-std a > h2{
+	margin: -92px 0px 0px -420px;
+	border-color: white;
+	font-size: 26px;
+	width: 360px;
+	padding: 30px;
+	border:1px solid none;
+	color: black;
+	background-color: white;
+	text-align: center;
+	cursor: pointer;
+}
+
+.tall-std h2:hover{
+	opacity: 0.7;
+	color:red;
+	background-color: black;
+}
+
+
+
+
+
+
+/*.............BACKGROUND AND OPACITY..........*/
+/*.............BACKGROUND AND OPACITY..........*/
+/*.............BACKGROUND AND OPACITY..........*/
+
+
+.bck-opacity-wrapper-std{
+	/*margin-top: 335px;*/
+	/*position: absolute;*/
+}
+
+.main-back-std {
+
+	margin-top: 1887px;
+	border:0px solid;
+	background-attachment:fixed;
+
+	height: 600px;
+	width: 1352px;
+	background:linear-gradient(to right, rgba(160,82,45,0.7), rgba(166,82,45,1)), url("../Ark Music/images/bc8.jpeg"), no-repeat;
+
+    
+}
+
+
+.main-back-std h3{
+	margin: 41px 0px 0px 600px;
+	font-size: 30px;
+	font-weight: bolder;
+	color: white;
+	position: absolute;
+}
+
+
+
+.main-back-std ul{
+	margin: -31px 0px 0px 220px;
+
+}
+
+
+.nothin-std{
+	margin: 130px 0px 0px 0px; 
+	position: absolute;
+	width: 220px;
+}
+.nothin-std li > img{
+	margin-bottom: 10px;
+	border-radius: 40px;
+	border:0px solid black;
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+}
+
+.nothin-std a{
+	margin: 110px 0px 0px 0px;
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+}
+.nothin-std p{
+	margin: -45px 0px 0px 45px;
+	position: absolute;
+}
+.nothin-std li{
+	margin-top: 50px;
+}
+.nothin-std p:hover{
+	border-bottom: 2px solid darkorange;
+	color: darkblue;
+}
+
+
+
+
+
+.second-last-std{
+	margin: 162px 0px 0px 600px;
+	position: absolute;
+
+}
+
+.second-last-std li{
+	margin-top: 20px;
+}
+
+.second-last-std li > img{
+	margin-bottom: 10px;
+	border-radius: 40px;
+	border:0px solid black;
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+}
+
+.second-last-std a {
+	margin: 110px 0px 0px 0px;
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+
+.second-last-std  p{
+	margin: -50px 0px 0px 45px;	
+	position: absolute;
+}
+.second-last-std p:hover{
+	border-bottom: 2px solid darkorange;
+	color: darkblue;
+}
+
+
+.last-part-std li > img{
+	margin-bottom: 10px;
+	border-radius: 40px;
+	border:0px solid black;
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+}
+
+.last-part-std a {
+	margin: 110px 0px 0px 0px;
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+
+}
+.last-part-std{	margin: 156px 0px 0px 930px;
+	position: absolute;
+}
+.last-part-std p{
+	margin: -51px 0px 0px 45px;
+	position: absolute;
+}
+.last-part-std li{
+	margin-top: 20px;
+}
+.last-part-std p:hover{
+	border-bottom: 2px solid darkorange;
+	color: darkblue;
+}
+
+
+
+/*<!------------HOW FAR DO YOU WITH PROGRAM--------------->*/
+/*<!------------HOW FAR DO YOU WITH PROGRAM--------------->
+<!--------------HOW FAR DO YOU WITH PROGRAM--------------->
+<!--------------HOW FAR DO YOU WITH PROGRAM--------------->
+*/
+
+
+.program-wrapper-std{
+	margin: 320px 0px 0px 0px;
+	color: white;
+	font-size: 17px;
+	background-color: lightgoldenrodyellow;
+	width: 100.2%;
+	height: 490px;
+}
+
+.pro-img-std img{
+	margin: 0px 0px 0px 70px;
+}
+
+.degree-std{
+	margin: -320px 0px 0px 40px;
+	color: black;
+	/*width: 600px;*/
+}
+
+.degree-std h4{
+	color: darkslategray;
+	font-size: 30px;
+	margin-left: 450px;
+	margin-top: 30px;
+	position:absolute;	
+	font-weight: bolder;	
+}
+
+.degree-std h2{
+	color: darkslategray;
+	font-size: 32px;
+	font-weight: normal;
+	margin-left: 440px;
+	margin-top: 70px;
+	position:absolute;	
+}
+
+.degree-std p{
+	color: darkslategray;
+	font-size: 20px;
+	line-height: 34px;
+	text-align:justify;	
+	width: 	94%;
+	margin-top: 120px;
+	position:absolute;	
+}
+
+.anchor-std li a{
+	color: mediumblue;
+	font-size: 18px;
+	line-height: 50px;
+	
+	position:relative;	
+}
+
+.degree-std li > a:hover{
+	color: midnightblue;
+	border-bottom: 2px solid darkorange;
+}
+
+.anchor-std li{
+	display: block;
+	margin-left: -40px;
+	margin-top: -10px;
+	position: relative;
+
+}
+.anchor-std ul{
+	margin-top: 365px;
+	position: 	absolute;	
+}
+
+
+/*-------------FOOTER-------------------*/
+/*-------------FOOTER-------------------*/
+/*-------------FOOTER-------------------*/
+/*-------------FOOTER-------------------*/
+
+.container-all-std{
+	margin-top: -650px;
+}
+.footer-std{
+	background-color: white;
+	position: absolute;
+	margin-top: 1000px;
+	width:1351px;
+	height:820px;
+}
+
+.wrapper-footer-std{
+	background-color: #262626;
+	position: absolute;
+	margin-left: 100px;
+	width:1150px;
+	height:590px;
+}
+
+.uls-std{
+	margin-left:80px;
+	margin-top:130px;
+	color: white;
+	font-size: 17px;
+}
+.uls-std ul{
+	margin-top: 30px;
+}
+
+.uls-std li > a{
+	color: white;
+	font-size: 16px;
+	margin-left:-50px;
+	line-height: 35px;
+}
+
+.uls-std li > a:hover{
+	border-bottom: 2px solid purple;
+	color: orange;
+}
+
+
+.footer-logo-std{
+	margin-top:-50px;
+	position: absolute;
+}
+
+.foot-logo-wrap-std{
+	margin-left:370px;
+	margin-top:-510px;
+}
+.foot-logo-wrap-std h1{
+	font-size: 75px;
+	color: white;
+	font-weight: bolder;
+	margin-left: 70px;
+	margin-top: -16px;
+}
+
+.foot-logo-wrap-std h3{
+	color: white;
+	font-weight: bolder;
+	margin-left: 70px;
+	margin-top: -16px;
+}
+
+.foot-social-wrap-std{
+		margin-left: 385px;
+		display: flex;
+
+}
+
+
+.foot-social-wrap-std img{
+		margin: 4px;
+		margin-top: 21px;
+	
+}
+
+.ff-std{
+	margin-top: 10px;
+}
+
+
+.f-std{
+	margin-top: 0px;
+	margin-left: -13px;
+}
+
+.twee-std{
+	margin-top: 7px;
+	margin-left: -3px;
+}
+.intg-std{
+	margin-top: 9px;
+	margin-left: 5px;
+}
+
+.you1-std{
+	margin-top: 6px;
+	margin-left: 13px;
+}	
+.foot-social-wrap-std img:hover{
+	opacity: 0.8;
+	background-color: darkolivegreen;
+	cursor: pointer;
+}
+
+.foot-cont-std{
+	margin-top: 21px;
+	margin-left: 430px;
+	color: gainsboro;
+	font-size: 14px;
+	line-height: 30px;
+	opacity: 0.5;
+}
+
+.footer-contact-us-std{
+	margin-top: -401px;
+	margin-left: 880px;
+
+}
+
+.footer-contact-us-std h4{
+	color: white;
+	font-size: 16px;
+}
+
+
+.footer-contact-us-std  h5{
+	margin-top: 50px;
+	color: white;
+	font-size: 13px;
+}
+
+.footer-contact-us-std p{
+	opacity: 0.6;
+	color: white;
+	font-size: 16px;
+}
+
+.footer-contact-us-std a{
+	opacity: 0.6;
+	color: white;
+	font-size: 16px;
+}
+
+
+
+/*-GALLERY GALLERY GALLERY GALLERY GALLERY GALLERY GALLERY*/
+/*-GALLERY GALLERY GALLERY GALLERY GALLERY GALLERY GALLERY*/
+/*-GALLERY GALLERY GALLERY GALLERY GALLERY GALLERY GALLERY*/
+/*-GALLERY GALLERY GALLERY GALLERY GALLERY GALLERY GALLERY*/
+/*-GALLERY GALLERY GALLERY GALLERY GALLERY GALLERY GALLERY*/
+/*-GALLERY GALLERY GALLERY GALLERY GALLERY GALLERY GALLERY*/
+
+
+
+
+
+
+
+
+/*---------NAVIGATION SECTION------------*/
+/*---------NAVIGATION SECTION------------*/
+/*---------NAVIGATION SECTION------------*/
+
+.wrapper-gly{
+	border:1px solid #191970;
+	width: 100%;
+	height: 65px;	
+	background-color: #191970;
+	position: relative;
+}
+.sub-wrap-gly{
+	margin-top: -10px;
+}
+
+.logo-gly span{
+	
+	font-size: 40px;
+	color: #ffe505;
+	font-weight: bold;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+.logo-gly h2{
+	font-size: 40px;
+	color: black;
+	font-weight: bold;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+.logo-gly a{
+	color: #fffdd5;
+	opacity: 	0.9;
+
+}
+
+
+
+/*....HOME----PRODUCT---LEARN---RESOURCES.......*/
+
+
+.sub-home-con-gly ul{
+	display: flex;
+	margin-left: 310px;
+	margin-top: -32px;
+	position: relative;
+	color: white;
+}
+.sub-home-con-gly a{
+ color: white;
+
+}
+
+
+.sub-home-con-gly li:hover,active,focus{
+ border:0px solid #00008B;
+ background-color: #43408B;
+ text-align: center;
+}
+
+.sub-home-con-gly a:hover{
+	transition: 0.5s
+}
+
+.sub-home-con-gly li{
+	margin: 0px 30px 0px 10px;
+
+}
+
+
+/*.....................SIGN......................*/
+
+.sign-gly{
+	position: absolute;
+}
+.sign-gly h3{
+	font-size: 17px;
+	margin-top: -23px;
+	margin-left: 860px;
+	font-weight: normal;
+	position: absolute;	
+	width: 55px;
+}
+
+
+.sign-gly h3 > a{
+	color: white;
+	cursor: pointer;
+
+}
+
+.sign-gly h3:hover{
+	background-color: #00008B;
+	border:0px solid;
+	position: absolute;
+
+}
+
+.sign-gly button{
+	font-size: 17px;
+	color: black;
+	font-weight: bold;
+	margin-left: 1000px;
+	margin-top: -38px;
+	background-color: orange;
+	position: absolute;
+	height: 30px;
+	cursor: pointer;	
+	border-radius: 5px;
+	height: 45px;
+	width: 	100px;
+	border:2px solid orange;
+}
+
+.sign-gly button:hover{
+	background-color: 	darkorange;
+	border:2px solid	darkorange;
+}
+
+.sign-gly ol{
+	position: absolute;
+	font-size: 18;
+	color: #fa2294;
+	font-weight: bold;
+	margin-left: 1170px;
+	margin-top: -28px;
+
+}
+
+.sign-gly li >a{
+	color: white;
+	font-weight: normal;
+}
+.sign-gly img{
+	border-radius: 50px;
+	border:1px solid #ff4;
+	margin-left: 1180px;
+	margin-top: -25px;
+	position: absolute;
+	overflow: hidden;
+}
+
+.sign-gly li{
+	color: white;
+}
+
+.language-gly ul > li{
+	display: none;
+
+}
+
+/*----------------DROP DOWN MENU-----------------*/
+
+.language-gly:hover ul > li{
+	display: flex;
+	margin-left: -30px;
+	margin-top: 8px;
+	flex-basis: 260px;
+	font-weight: normal;
+	color: #fff;
+	position: relative;
+	cursor: pointer;
+	line-height: 40px;
+	text-align: center;
+
+}
+
+
+.language-gly:hover ul {
+	margin-top: 19px;
+	margin-left: -20px;
+	background-color: darkblue;
+	width: 72px;
+	border:2px solid grey;
+	border-top-color: #191970;
+	border-radius: 0px 0px 13px 13px;
+	overflow: hidden;
+	text-overflow: hidden;
+	align-items:flex-end;
+	text-align: right;
+
+}
+
+.language-gly ul> li:hover,focus, active {
+	background-color: red;
+	margin-left: -39px;
+}
+
+
+
+
+/*---LOGO ON D LEFT MIDDLE CONTECT AND RIGHT IMAGE-----*/
+/*---LOGO ON D LEFT MIDDLE CONTECT AND RIGHT IMAGE----*/
+/*---LOGO ON D LEFT MIDDLE CONTECT AND RIGHT IMAGE-----*/
+
+
+
+
+/*--------------LOGO----------------------------*/
+
+.main-logo-gly{
+	margin: 0px 0px 0px 0px;
+	border:1px solid;
+	background-color:black;
+	height: 200px;
+	width: 250px;
+
+}
+
+.main-logo-gly img{
+	margin: -80px 0px 0px 15px;
+}
+figure > img:hover{
+	opacity: 0.9;
+	color: black;
+	cursor: pointer;
+}
+
+/*--------------UPPER PART----------------------------*/
+.upper-part-gly{
+	margin-left: 252px;
+	margin-top: -222px;
+	border:0px solid;
+	background-attachment:fixed;
+	background-image: url("../Ark Music/images/bck0.jpg");
+	background-repeat: no-repeat;
+	height: 580px;
+	width: 1099px;
+
+}
+
+.upper-wrapper-gly a > h1{
+	margin: 460px 0px 0px 100px;
+	color: white;
+	font-size: 40px;
+	position: absolute;
+}
+
+.upper-wrapper-gly h3{
+	margin: 590px 0px 0px 20px;
+	color: white;
+	font-size: 19px;
+	text-align: justify;
+	width: 800px;
+	line-height: 30px;
+	font-weight: normal;
+	position: absolute;
+}
+
+.upper-wrapper-gly p{
+	margin: 790px 0px 0px 20px;
+	text-align: justify;
+	width: 800px;
+	line-height: 30px;
+	font-size: 19px;
+	color: white;
+	position: absolute;
+}
+
+/*............OUR VISION......*/
+.container-Our-Vision-gly{
+	margin: 880px 0px 0px -260px;
+	background:linear-gradient(to right, rgba(72,61,139,0.7), rgba(72,61,139,.6)), url("../Ark Music/images/bck0.jpg"), no-repeat;
+	height: 800px;
+	width: 1358px;
+}
+
+.Our-Vision-gly img{
+	margin: 200px 0px 0px 120px;
+	opacity: 0.8;
+	color: darkorange;
+	border:2px solid black;
+	border-radius: 23px;
+	border:ridge;
+	position: absolute;
+}
+
+.Our-Vision-1-gly img{
+	margin: 200px 0px 0px 720px;
+	opacity: 0.8;
+	color: darkorange;
+	border:2px solid black;
+	border-radius: 23px;
+	border:ridge;
+	position: absolute;
+}
+
+.container-Our-Vision-gly a > h1{
+	margin: 54px 0px 0px 400px;
+	color: white;
+	font-size: 40px;
+	position: absolute;
+	text-transform: uppercase;
+}
+
+.container-Our-Vision-gly h3{
+	margin: 520px 0px 0px 120px;
+	color: white;
+	font-size: 19px;
+	text-align: justify;
+	width: 450px;
+	line-height: 30px;
+	font-weight: normal;
+	position: absolute;
+}
+
+
+.container-Our-Vision-gly h4{
+	margin: 520px 0px 0px 730px;
+	color: white;
+	font-size: 19px;
+	text-align: justify;
+	width: 450px;
+	line-height: 30px;
+	font-weight: normal;
+	position: absolute;
+}
+.container-Our-Vision-gly p{
+	margin: 840px 0px 0px 20px;
+	text-align: justify;
+	width: 800px;
+	line-height: 30px;
+	font-size: 19px;
+	color: white;
+	position: absolute;
+}
+
+/*.............OUR-MISSION......*/
+
+
+
+.container-Our-Mision-gly{
+	margin: 0px 0px 0px -260px;
+	background:linear-gradient(to right, rgba(25,25,112,0.7), rgba(25,25,112,.7)), url("../Ark Music/images/bck1.jpeg"), no-repeat;
+	height: 1000px;
+	width: 1358px;
+}
+
+.Our-Mision-gly img{
+	margin: -50px 0px 0px 125px;
+	opacity: 0.8;
+	color: darkorange;
+	border:2px solid black;
+	border-radius: 23px;
+	border:ridge;
+	position: absolute;
+}
+
+.container-Our-Mision-gly h4{
+	margin: 280px 0px 0px 130px;
+	color: white;
+	font-size: 19px;
+	text-align: justify;
+	width: 430px;
+	line-height: 30px;
+	font-weight: normal;
+	position: absolute;
+}
+
+.container-Our-Mision-gly a{
+color: darkorange;
+}
+
+.Our-Mision-1-gly img{
+	margin: -50px 0px 0px 730px;
+	opacity: 0.8;
+	color: darkorange;
+	border:2px solid black;
+	border-radius: 23px;
+	border:ridge;
+	position: absolute;
+}
+
+.container-Our-Mision-gly h2{
+	margin: 280px 0px 0px 740px;
+	color: white;
+	font-size: 19px;
+	text-align: justify;
+	width: 430px;
+	line-height: 30px;
+	font-weight: normal;
+	position: absolute;
+}
+
+
+.Our-Mision-2-gly img{
+	margin: 432px 0px 0px 125px;
+	opacity: 0.8;
+	color: darkorange;
+	border:2px solid black;
+	border-radius: 23px;
+	border:ridge;
+	position: absolute;
+}
+
+.container-Our-Mision-gly h1{
+	margin:760px 0px 0px 130px;
+	color: white;
+	font-size: 19px;
+	text-align: justify;
+	width: 430px;
+	line-height: 30px;
+	font-weight: normal;
+	position: absolute;
+}
+
+
+
+.Our-Mision-3-gly img{
+	margin: 432px 0px 0px 730px;
+	opacity: 0.8;
+	color: darkorange;
+	border:2px solid black;
+	border-radius: 23px;
+	border:ridge;
+	position: absolute;
+}
+
+
+.container-Our-Mision-gly h5{
+	margin: 760px 0px 0px 740px;
+	color: white;
+	font-size: 19px;
+	text-align: justify;
+	width: 430px;
+	line-height: 30px;
+	font-weight: normal;
+	position: absolute;
+}
+
+
+
+.blank-space{
+	border: 0px solid 	rgba(178,34,34,0.8);
+	margin: 0px 0px 0px -260px;
+	padding: 29px;
+	width: 96.36%;
+	height: 320px;
+	background: linear-gradient(to right, rgba(45,14,3,0.8), rgba(45,14,3,.9)), url("../Ark Music/images/111.jpg"), no-repeat;
+	position: absolute;
+}
+
+
+.Leadership-gly{
+	margin: -20px  0px 0px 0px;
+}
+
+
+.Leadership-gly h3{
+	margin: 60px 0px 0px 270px;
+	color: darkorange;
+	font-size: 23px;
+	font-weight: bold;
+	position: absolute;
+}
+
+.Leadership-gly h2{
+	margin: 80px 0px 0px 70px;
+	color: white;
+	font-size: 32px;
+	line-height: 60px;
+	font-weight: normal;
+	position: absolute;
+}
+
+.Leadership-gly p{
+	margin: 150px 0px 0px -220px;
+	text-align: justify;
+	width: 1280px;
+	line-height: 30px;
+	font-size: 19px;
+	color: white;
+	position: absolute;
+}
+/*........OTHER1.............*/
+
+.other-wrapper-gly{
+	border: 0px solid 	rgba(178,34,34,0.8);
+	margin: 398px 0px 0px -260px;
+	padding: 29px;
+	width: 96.36%;
+	height: 900px;
+	background: linear-gradient(to right, rgba(7, 2, 42,0.7), rgba(7, 2, 42,0.7)), url("../Ark Music/images/bac1.jpeg"), no-repeat;
+	position: absolute;
+}
+
+
+.other1-gly img{
+	margin: 60px 0px 0px 100px;
+	opacity: 0.8;
+	color: darkorange;
+	border:2px solid black;
+	border-radius: 703px;
+	border:ridge;
+	position: absolute;
+}
+
+
+.other2-gly img{
+	margin: 60px 0px 0px 375px;
+	opacity: 0.8;
+	color: darkorange;
+	border:2px solid black;
+	border-radius: 703px;
+	border:ridge;
+	position: absolute;
+}
+
+
+.other3-gly img{
+	margin: 60px 0px 0px 655px;
+	opacity: 0.8;
+	color: darkorange;
+	border:2px solid black;
+	border-radius: 703px;
+	border:ridge;
+	position: absolute;
+}
+
+.other4-gly img{
+	margin: 60px 0px 0px 930px;
+	opacity: 0.8;
+	color: darkorange;
+	border:2px solid black;
+	border-radius: 703px;
+	border:ridge;
+	position: absolute;
+}
+
+.other5-gly img{
+	margin: 20px 0px 0px 20px;
+	opacity: 0.8;
+	color: darkorange;
+	border:2px solid black;
+	border-radius: 703px;
+	border:ridge;
+	position: absolute;
+}
+
+.button-left button{
+	background: coral;
+	border-radius: 12px;
+	margin: 170px 0px 0px 1220px;
+	position: absolute;
+}
+
+.button-right button{
+	background: coral;
+	border-radius: 12px;
+	margin:170px 0px 0px 0px;
+	position: absolute;
+}
+button:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+
+
+
+/*--------------ANOTHER---------------*/
+
+
+
+.another-wrapper-gly img{
+	/*margin: 798px 0px 0px -210px;*/
+	border:1px solid black;	
+	/*float: 	center;*/
+	/*position: absolute;*/
+	position: relative;
+    animation-name: moveit;
+	animation: moveit 3s infinite;
+    margin-left: 4px;
+    margin-top: 30px;
+    overflow: hidden;	
+	animation-delay: 2s;
+
+}
+
+@keyframes moveit{
+        from{left: 105%}to{left:  15%}
+}
+
+
+.another-gly img{
+	margin: 860px 0px 0px -160px;
+	opacity: 0.8;
+	color: darkorange;
+	border:2px solid black;
+	border-radius: 13px;
+	border:ridge;
+	position: absolute;
+
+
+}
+
+
+.another2-gly img{
+	margin: 860px 0px 0px 160px;
+	opacity: 0.8;
+	color: darkorange;
+	border:2px solid black;
+	border-radius: 13px;
+	border:ridge;
+	position: absolute;
+}
+
+
+.another3-gly img{
+	margin: 860px 0px 0px 485px;
+	opacity: 0.8;
+	color: darkorange;
+	border:2px solid black;
+	border-radius: 13px;
+	border:ridge;
+	position: absolute;
+}
+
+.another4-gly img{
+	margin: 860px 0px 0px 800px;
+	opacity: 0.8;
+	color: darkorange;
+	border:2px solid black;
+	border-radius: 13px;
+	border:ridge;
+	position: absolute;
+}
+
+
+
+
+
+/*---------INFORMATION SECTION LEFT---------*/
+/*---------INFORMATION SECTION LEFT---------*/
+/*---------INFORMATION SECTION LEFT---------*/
+
+
+.wrapper-left-sidebar-gly{
+	position: absolute;
+	margin-top: -409px;
+	line-height: 22px;
+	background-color: #FFFF;
+	width: 251px;
+	box-sizing: border-box;
+	height: 775px;
+}
+.wrapper-left-sidebar-gly h2{
+	margin-left:30px;
+	margin-top: 20px;
+}
+.wrapper-left-sidebar-gly h4{
+	margin-left:30px;
+	font-size: 15px;
+	box-sizing: border-box;
+
+}
+
+.wrapper-left-sidebar-gly a > h2{
+	font-size: 14px;
+}
+.wrapper-left-sidebar-gly a > h2:hover{
+	color: darkgreen;
+	border-bottom: 2px solid darkorange;
+	width: 210px;
+	position: all;
+	box-sizing: border-box;
+}
+
+
+
+/*-------------FOOTER-------------------*/
+/*-------------FOOTER-------------------*/
+/*-------------FOOTER-------------------*/
+/*-------------FOOTER-------------------*/
+
+.container-all-gly{
+	margin-top: 2500px;
+}
+.footer-gly{
+	background-color: white;
+	position: absolute;
+	margin-top: 1000px;
+	width:1351px;
+	height:820px;
+}
+
+.wrapper-footer-gly{
+	background-color: #262626;
+	position: absolute;
+	margin-left: 100px;
+	width:1150px;
+	height:590px;
+}
+
+.uls-gly{
+	margin-left:80px;
+	margin-top:130px;
+	color: white;
+	font-size: 17px;
+}
+.uls-gly ul{
+	margin-top: 30px;
+}
+
+.uls-gly li > a{
+	color: white;
+	font-size: 16px;
+	margin-left:-50px;
+	line-height: 35px;
+}
+
+.uls-gly li > a:hover{
+	border-bottom: 2px solid purple;
+	color: orange;
+}
+
+
+.footer-logo-gly{
+	margin-top:-50px;
+	position: absolute;
+}
+
+.foot-logo-wrap-gly{
+	margin-left:370px;
+	margin-top:-510px;
+}
+.foot-logo-wrap-gly h1{
+	font-size: 75px;
+	color: white;
+	font-weight: bolder;
+	margin-left: 70px;
+	margin-top: -16px;
+}
+
+.foot-logo-wrap-gly h3{
+	color: white;
+	font-weight: bolder;
+	margin-left: 70px;
+	margin-top: -16px;
+}
+
+.foot-social-wrap-gly{
+		margin-left: 385px;
+		display: flex;
+
+}
+
+
+.foot-social-wrap-gly img{
+		margin: 4px;
+		margin-top: 21px;
+	
+}
+
+.ff-gly{
+	margin-top: 10px;
+}
+
+
+.f-gly{
+	margin-top: 0px;
+	margin-left: -13px;
+}
+
+.twee-gly{
+	margin-top: 7px;
+	margin-left: -3px;
+}
+.intg-gly{
+	margin-top: 9px;
+	margin-left: 5px;
+}
+
+.you1-gly{
+	margin-top: 6px;
+	margin-left: 13px;
+}	
+.foot-social-wrap-gly img:hover{
+	opacity: 0.8;
+	background-color: darkolivegreen;
+	cursor: pointer;
+}
+
+.foot-cont-gly{
+	margin-top: 21px;
+	margin-left: 430px;
+	color: gainsboro;
+	font-size: 14px;
+	line-height: 30px;
+	opacity: 0.5;
+}
+
+.footer-contact-us-gly{
+	margin-top: -401px;
+	margin-left: 880px;
+
+}
+
+.footer-contact-us-gly h4{
+	color: white;
+	font-size: 16px;
+}
+
+
+.footer-contact-us-gly  h5{
+	margin-top: 50px;
+	color: white;
+	font-size: 13px;
+}
+
+.footer-contact-us-gly p{
+	opacity: 0.6;
+	color: white;
+	font-size: 16px;
+}
+
+.footer-contact-us-gly a{
+	opacity: 0.6;
+	color: white;
+	font-size: 16px;
+}
+
+
+
+
+/* contact contact contact contact contact contact contact*/
+/* contact contact contact contact contact contact contact*/
+/* contact contact contact contact contact contact contact*/
+/* contact contact contact contact contact contact contact*/
+/* contact contact contact contact contact contact contact*/
+/* contact contact contact contact contact contact contact*/
+/* contact contact contact contact contact contact contact*/
+/* contact contact contact contact contact contact contact*/
+
+
+
+
+
+
+
+/*---------NAVIGATION SECTION------------*/
+/*---------NAVIGATION SECTION------------*/
+/*---------NAVIGATION SECTION------------*/
+
+.wrapper-cnt{
+	border:1px solid #191970;
+	width: 100%;
+	height: 65px;	
+	background-color: #191970;
+	position: relative;
+}
+.sub-wrap-cnt{
+	margin-top: -10px;
+}
+
+.logo-cnt span{
+	
+	font-size: 40px;
+	color: #ffe505;
+	font-weight: bold;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+.logo-cnt h2{
+	font-size: 40px;
+	color: black;
+	font-weight: bold;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+.logo-cnt a{
+	color: #fffdd5;
+		opacity: 	0.9;
+
+}
+
+
+
+/*....HOME----PRODUCT---LEARN---RESOURCES.......*/
+
+
+.sub-home-con-cnt ul{
+	display: flex;
+	margin-left: 310px;
+	margin-top: -32px;
+	position: relative;
+	color: white;
+}
+.sub-home-con-cnt a{
+ color: white;
+
+}
+
+
+.sub-home-con-cnt li:hover,active,focus{
+ border:0px solid #00008B;
+ background-color: #43408B;
+ text-align: center;
+}
+
+.sub-home-con-cnt a:hover{
+	transition: 0.5s
+}
+
+.sub-home-con-cnt li{
+	margin: 0px 30px 0px 10px;
+
+}
+
+
+/*.....................SIGN......................*/
+
+.sign-cnt{
+	position: absolute;
+}
+.sign-cnt h3{
+	font-size: 17px;
+	margin-top: -23px;
+	margin-left: 860px;
+	font-weight: normal;
+	position: absolute;	
+	width: 55px;
+}
+
+
+.sign-cnt h3 > a{
+	color: white;
+	cursor: pointer;
+
+}
+
+.sign-cnt h3:hover{
+	background-color: #00008B;
+	border:0px solid;
+	position: absolute;
+	text-align: center;
+}
+
+.sign-cnt button{
+	font-size: 17px;
+	color: black;
+	font-weight: bold;
+	margin-left: 1000px;
+	margin-top: -38px;
+	background-color: orange;
+	position: absolute;
+	height: 30px;
+	cursor: pointer;	
+	border-radius: 5px;
+	height: 45px;
+	width: 	100px;
+	border:2px solid orange;
+}
+
+.sign-cnt button:hover{
+	background-color: 	darkorange;
+	border:2px solid	darkorange;
+}
+
+.sign-cnt ol{
+	position: absolute;
+	font-size: 18;
+	color: #fa2294;
+	font-weight: bold;
+	margin-left: 1170px;
+	margin-top: -28px;
+
+}
+
+.sign-cnt li >a{
+	color: white;
+	font-weight: normal;
+}
+.sign-cnt img{
+	border-radius: 50px;
+	border:1px solid #ff4;
+	margin-left: 1180px;
+	margin-top: -25px;
+	position: absolute;
+	overflow: hidden;
+}
+
+.sign-cnt li{
+	color: white;
+}
+
+.language-cnt ul > li{
+	display: none;
+
+}
+
+/*----------------DROP DOWN MENU-----------------*/
+
+.language-cnt:hover ul > li{
+	display: flex;
+	margin-left: -30px;
+	margin-top: 8px;
+	flex-basis: 260px;
+	font-weight: normal;
+	color: #fff;
+	position: relative;
+	cursor: pointer;
+	line-height: 40px;
+	text-align: center;
+
+}
+
+
+.language-cnt:hover ul {
+	margin-top: 19px;
+	margin-left: -20px;
+	background-color: darkblue;
+	width: 72px;
+	border:2px solid grey;
+	border-top-color: #191970;
+	border-radius: 0px 0px 13px 13px;
+	overflow: hidden;
+	text-overflow: hidden;
+	align-items:flex-end;
+	text-align: right;
+
+}
+
+.language-cnt ul> li:hover,focus, active {
+	background-color: red;
+	margin-left: -39px;
+}
+
+
+
+
+/*---LOGO ON D LEFT MIDDLE CONTECT AND RIGHT IMAGE-----*/
+/*---LOGO ON D LEFT MIDDLE CONTECT AND RIGHT IMAGE----*/
+/*---LOGO ON D LEFT MIDDLE CONTECT AND RIGHT IMAGE-----*/
+
+
+
+
+/*--------------LOGO----------------------------*/
+
+.main-logo-cnt{
+	margin: 0px 0px 0px 0px;
+	border:1px solid;
+	background-color:black;
+	height: 200px;
+	width: 250px;
+
+}
+
+.main-logo-cnt img{
+	margin: -80px 0px 0px 15px;
+}
+figure > img:hover{
+	opacity: 0.9;
+	color: black;
+	cursor: pointer;
+}
+
+/*--------------UPPER PART----------------------------*/
+.upper-part-cnt{
+	margin-left: 252px;
+	margin-top: -222px;
+	border:0px solid;
+	background-attachment:fixed;
+	background: linear-gradient(to right, rgba(45,14,3,0.7), rgba(45,14,3,.9)), url("../Ark Music/images/111.jpg"), no-repeat;
+	/*position: absolute;*/
+	height: 580px;
+	width: 1099px;
+
+}
+
+.upper-wrapper-cnt a > h1{
+	margin: 460px 0px 0px 100px;
+	color: white;
+	font-size: 40px;
+	position: absolute;
+}
+
+.upper-wrapper-cnt h3{
+	margin: 590px 0px 0px 20px;
+	color: white;
+	font-size: 19px;
+	text-align: justify;
+	width: 1000px;
+	line-height: 40px;
+	font-weight: normal;
+	position: absolute;
+}
+
+.upper-wrapper-cnt p{
+	margin: 790px 0px 0px 20px;
+	text-align: justify;
+	width: 800px;
+	line-height: 30px;
+	font-size: 19px;
+	color: white;
+	position: absolute;
+}
+
+/*............OUR VISION......*/
+.container-Our-Vision-cnt{
+	margin: 880px 0px 0px -260px;
+	background:linear-gradient(to right, rgba(72,61,139,0.7), rgba(72,61,139,.6)), url("../Ark Music/images/bck0.jpg"), no-repeat;
+	height: 800px;
+	width: 1358px;
+}
+
+.Our-Vision-cnt img{
+	margin: 200px 0px 0px 120px;
+	opacity: 0.8;
+	color: darkorange;
+	border:2px solid black;
+	border-radius: 23px;
+	border:ridge;
+	position: absolute;
+}
+
+.Our-Vision-1-cnt img{
+	margin: 200px 0px 0px 720px;
+	opacity: 0.8;
+	color: darkorange;
+	border:2px solid black;
+	border-radius: 23px;
+	border:ridge;
+	position: absolute;
+}
+
+.container-Our-Vision-cnt a > h1{
+	margin: 54px 0px 0px 300px;
+	color: white;
+	font-size: 30px;
+	position: absolute;
+	text-transform: uppercase;
+}
+
+.container-Our-Vision-cnt h3{
+	margin: 520px 0px 0px 120px;
+	color: white;
+	font-size: 19px;
+	text-align: justify;
+	width: 450px;
+	line-height: 30px;
+	font-weight: normal;
+	position: absolute;
+}
+
+
+/*--------SOCIAL MEDIAL ADDRESS AND PHYSICAL ADDRESS---*/
+
+.footer-logo-1cnt{
+	margin-top:-650px;
+	position: absolute;
+	margin-left: -100px;
+}
+
+
+
+
+.foot-social-wrap-1cnt{
+		display: inline;
+		position: relative;	
+	
+}
+
+
+.foot-social-wrap-1cnt img{
+		margin: 4px;
+		margin-top: 21px;
+	
+}
+
+.ff-1cnt{
+	margin-top: 10px;
+}
+
+
+.f-1cnt{
+	margin-top: 0px;
+	margin-left: -13px;
+}
+
+.twee-1cnt{
+	margin-top: 7px;
+	margin-left: -3px;
+}
+.intg-1cnt{
+	margin-top: 9px;
+	margin-left: 5px;
+}
+
+.you1-1cnt{
+	margin-top: 6px;
+	margin-left: 13px;
+}	
+.foot-social-wrap-1cnt img:hover{
+	opacity: 0.8;
+	background-color: darkolivegreen;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-Our-Vision-cnt h4{
+	margin: 520px 0px 0px 730px;
+	color: white;
+	font-size: 19px;
+	text-align: justify;
+	width: 450px;
+	line-height: 30px;
+	font-weight: normal;
+	position: absolute;
+}
+.container-Our-Vision-cnt p{
+	margin: 840px 0px 0px 20px;
+	text-align: justify;
+	width: 800px;
+	line-height: 30px;
+	font-size: 19px;
+	color: white;
+	position: absolute;
+}
+
+/*.............OUR-MISSION......*/
+
+
+
+.container-Our-Mision-cnt{
+	margin: 0px 0px 0px -260px;
+	background:linear-gradient(to right, rgba(25,25,112,0.7), rgba(25,25,112,.7)), url("../Ark Music/images/bck1.jpeg"), no-repeat;
+	height: 1000px;
+	width: 1358px;
+}
+
+.Our-Mision-cnt img{
+	margin: -50px 0px 0px 125px;
+	opacity: 0.8;
+	color: darkorange;
+	border:2px solid black;
+	border-radius: 23px;
+	border:ridge;
+	position: absolute;
+}
+
+.container-Our-Mision-cnt h4{
+	margin: 280px 0px 0px 130px;
+	color: white;
+	font-size: 19px;
+	text-align: justify;
+	width: 430px;
+	line-height: 30px;
+	font-weight: normal;
+	position: absolute;
+}
+
+.container-Our-Mision-cnt a{
+color: darkorange;
+}
+
+.Our-Mision-1-cnt img{
+	margin: -50px 0px 0px 730px;
+	opacity: 0.8;
+	color: darkorange;
+	border:2px solid black;
+	border-radius: 23px;
+	border:ridge;
+	position: absolute;
+}
+
+.container-Our-Mision-cnt h2{
+	margin: 280px 0px 0px 740px;
+	color: white;
+	font-size: 19px;
+	text-align: justify;
+	width: 430px;
+	line-height: 30px;
+	font-weight: normal;
+	position: absolute;
+}
+
+
+.Our-Mision-2-cnt img{
+	margin: 432px 0px 0px 125px;
+	opacity: 0.8;
+	color: darkorange;
+	border:2px solid black;
+	border-radius: 23px;
+	border:ridge;
+	position: absolute;
+}
+
+.container-Our-Mision-cnt h1{
+	margin:760px 0px 0px 130px;
+	color: white;
+	font-size: 19px;
+	text-align: justify;
+	width: 430px;
+	line-height: 30px;
+	font-weight: normal;
+	position: absolute;
+}
+
+
+
+.Our-Mision-3-cnt img{
+	margin: 432px 0px 0px 730px;
+	opacity: 0.8;
+	color: darkorange;
+	border:2px solid black;
+	border-radius: 23px;
+	border:ridge;
+	position: absolute;
+}
+
+
+.container-Our-Mision-cnt h5{
+	margin: 760px 0px 0px 740px;
+	color: white;
+	font-size: 19px;
+	text-align: justify;
+	width: 430px;
+	line-height: 30px;
+	font-weight: normal;
+	position: absolute;
+}
+
+
+
+.blank-space-cnt{
+	border: 0px solid 	rgba(178,34,34,0.8);
+	margin: 0px 0px 0px -260px;
+	padding: 29px;
+	width: 96.36%;
+	height: 320px;
+	background: linear-gradient(to right, rgba(45,14,3,0.8), rgba(45,14,3,.9)), url("../Ark Music/images/111.jpg"), no-repeat;
+	position: absolute;
+}
+
+
+.Leadership-cnt{
+	margin: -20px  0px 0px 0px;
+}
+
+
+.Leadership-cnt h3{
+	margin: 60px 0px 0px 270px;
+	color: darkorange;
+	font-size: 23px;
+	font-weight: bold;
+	position: absolute;
+}
+
+.Leadership-cnt h2{
+	margin: 80px 0px 0px 70px;
+	color: white;
+	font-size: 32px;
+	line-height: 60px;
+	font-weight: normal;
+	position: absolute;
+}
+
+.Leadership-cnt p{
+	margin: 150px 0px 0px -220px;
+	text-align: justify;
+	width: 1280px;
+	line-height: 30px;
+	font-size: 19px;
+	color: white;
+	position: absolute;
+}
+/*........OTHER1.............*/
+
+.other-wrapper-cnt{
+	border: 0px solid 	rgba(178,34,34,0.8);
+	margin: 398px 0px 0px -260px;
+	padding: 29px;
+	width: 96.36%;
+	height: 900px;
+	background: linear-gradient(to right, rgba(7, 2, 42,0.7), rgba(7, 2, 42,0.7)), url("../Ark Music/images/bac1.jpeg"), no-repeat;
+	position: absolute;
+}
+
+
+.other1-cnt img{
+	margin: 60px 0px 0px 100px;
+	opacity: 0.8;
+	color: darkorange;
+	border:2px solid black;
+	border-radius: 703px;
+	border:ridge;
+	position: absolute;
+}
+
+
+.other2-cnt img{
+	margin: 60px 0px 0px 375px;
+	opacity: 0.8;
+	color: darkorange;
+	border:2px solid black;
+	border-radius: 703px;
+	border:ridge;
+	position: absolute;
+}
+
+
+.other3-cnt img{
+	margin: 60px 0px 0px 655px;
+	opacity: 0.8;
+	color: darkorange;
+	border:2px solid black;
+	border-radius: 703px;
+	border:ridge;
+	position: absolute;
+}
+
+.other4-cnt img{
+	margin: 60px 0px 0px 930px;
+	opacity: 0.8;
+	color: darkorange;
+	border:2px solid black;
+	border-radius: 703px;
+	border:ridge;
+	position: absolute;
+}
+
+.other5-cnt img{
+	margin: 20px 0px 0px 20px;
+	opacity: 0.8;
+	color: darkorange;
+	border:2px solid black;
+	border-radius: 703px;
+	border:ridge;
+	position: absolute;
+}
+
+.button-left button{
+	background: coral;
+	border-radius: 12px;
+	margin: 170px 0px 0px 1220px;
+	position: absolute;
+}
+
+.button-right button{
+	background: coral;
+	border-radius: 12px;
+	margin:170px 0px 0px 0px;
+	position: absolute;
+}
+button:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+
+
+
+/*--------------ANOTHER---------------*/
+
+
+
+.another-wrapper-cnt img{
+	/*margin: 798px 0px 0px -210px;*/
+	border:1px solid black;	
+	/*float: 	center;*/
+	/*position: absolute;*/
+	position: relative;
+    animation-name: moveit;
+	animation: moveit 3s infinite;
+    margin-left: 4px;
+    margin-top: 30px;
+    overflow: hidden;	
+	animation-delay: 2s;
+
+}
+
+@keyframes moveit{
+        from{left: 105%}to{left:  15%}
+}
+
+
+.another-cnt img{
+	margin: 860px 0px 0px -160px;
+	opacity: 0.8;
+	color: darkorange;
+	border:2px solid black;
+	border-radius: 13px;
+	border:ridge;
+	position: absolute;
+
+
+}
+
+
+.another2-cnt img{
+	margin: 860px 0px 0px 160px;
+	opacity: 0.8;
+	color: darkorange;
+	border:2px solid black;
+	border-radius: 13px;
+	border:ridge;
+	position: absolute;
+}
+
+
+.another3-cnt img{
+	margin: 860px 0px 0px 485px;
+	opacity: 0.8;
+	color: darkorange;
+	border:2px solid black;
+	border-radius: 13px;
+	border:ridge;
+	position: absolute;
+}
+
+.another4-cnt img{
+	margin: 860px 0px 0px 800px;
+	opacity: 0.8;
+	color: darkorange;
+	border:2px solid black;
+	border-radius: 13px;
+	border:ridge;
+	position: absolute;
+}
+
+
+
+
+
+/*---------INFORMATION SECTION LEFT---------*/
+/*---------INFORMATION SECTION LEFT---------*/
+/*---------INFORMATION SECTION LEFT---------*/
+
+
+.wrapper-left-sidebar-cnt{
+	position: absolute;
+	margin-top: -409px;
+	line-height: 22px;
+	background-color: #FFFF;
+	width: 251px;
+	box-sizing: border-box;
+	height: 731px;
+}
+.wrapper-left-sidebar-cnt h2{
+	margin-left:30px;
+	margin-top: 20px;
+}
+.wrapper-left-sidebar-cnt h4{
+	margin-left:30px;
+	font-size: 15px;
+	box-sizing: border-box;
+
+}
+
+.wrapper-left-sidebar-cnt a > h2{
+	font-size: 14px;
+}
+.wrapper-left-sidebar-cnt a > h2:hover{
+	color: darkgreen;
+	border-bottom: 2px solid darkorange;
+	width: 210px;
+	position: all;
+	box-sizing: border-box;
+}
+
+
+
+/*-------------FOOTER-------------------*/
+/*-------------FOOTER-------------------*/
+/*-------------FOOTER-------------------*/
+/*-------------FOOTER-------------------*/
+
+.container-all-cnt{
+	margin-top: 2500px;
+}
+.footer-cnt{
+	background-color: white;
+	position: absolute;
+	margin-top: 1000px;
+	width:1351px;
+	height:820px;
+}
+
+.wrapper-footer-cnt{
+	background-color: #262626;
+	position: absolute;
+	margin-left: 100px;
+	width:1150px;
+	height:590px;
+}
+
+.uls-cnt{
+	margin-left:80px;
+	margin-top:130px;
+	color: white;
+	font-size: 17px;
+}
+.uls-cnt ul{
+	margin-top: 30px;
+}
+
+.uls-cnt li > a{
+	color: white;
+	font-size: 16px;
+	margin-left:-50px;
+	line-height: 35px;
+}
+
+.uls-cnt li > a:hover{
+	border-bottom: 2px solid purple;
+	color: orange;
+}
+
+
+.footer-logo-cnt{
+	margin-top:-50px;
+	position: absolute;
+}
+
+.foot-logo-wrap-cnt{
+	margin-left:370px;
+	margin-top:-510px;
+}
+.foot-logo-wrap-cnt h1{
+	font-size: 75px;
+	color: white;
+	font-weight: bolder;
+	margin-left: 70px;
+	margin-top: -16px;
+}
+
+.foot-logo-wrap-cnt h3{
+	color: white;
+	font-weight: bolder;
+	margin-left: 70px;
+	margin-top: -16px;
+}
+
+.foot-social-wrap-cnt{
+		margin-left: 385px;
+		display: flex;
+
+}
+
+
+.foot-social-wrap-cnt img{
+		margin: 4px;
+		margin-top: 21px;
+	
+}
+
+.ff-cnt{
+	margin-top: 10px;
+}
+
+
+.f-cnt{
+	margin-top: 0px;
+	margin-left: -13px;
+}
+
+.twee-cnt{
+	margin-top: 7px;
+	margin-left: -3px;
+}
+.intg-cnt{
+	margin-top: 9px;
+	margin-left: 5px;
+}
+
+.you1-cnt{
+	margin-top: 6px;
+	margin-left: 13px;
+}	
+.foot-social-wrap-cnt img:hover{
+	opacity: 0.8;
+	background-color: darkolivegreen;
+	cursor: pointer;
+}
+
+.foot-cont-cnt{
+	margin-top: 21px;
+	margin-left: 430px;
+	color: gainsboro;
+	font-size: 14px;
+	line-height: 30px;
+	opacity: 0.5;
+}
+
+.footer-contact-us-cnt{
+	margin-top: -401px;
+	margin-left: 880px;
+
+}
+
+.footer-contact-us-cnt h4{
+	color: white;
+	font-size: 16px;
+}
+
+
+.footer-contact-us-cnt  h5{
+	margin-top: 50px;
+	color: white;
+	font-size: 13px;
+}
+
+.footer-contact-us-cnt p{
+	opacity: 0.6;
+	color: white;
+	font-size: 16px;
+}
+
+.footer-contact-us-cnt a{
+	opacity: 0.6;
+	color: white;
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+idex.html
+
+about us.html
+
+admission.html
+
+sign up.html
+
+student.html
+
+gallery.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
